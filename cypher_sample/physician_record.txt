@@ -1,0 +1,72 @@
+1.  Retrieve Physicians by Partial Name Match with Hospital Details
+To find physicians whose names contain a specific substring and the hospital they work at
+
+MATCH (p:physician)<-[:recruit]-(h:hospital)
+WHERE p.Physician_Name CONTAINS "Lim"
+RETURN p.Physician_Name AS Name, 
+       p.Specialization AS Specialization, 
+       p.License_Number AS LicenseNumber, 
+       p.Contact_Number AS ContactNumber,
+       h.`Hospital Name` AS HospitalName,  
+       h.`Contact Number` AS HospitalContactNumber;
+
+2. Retrieve Physician by Specific Name with Hospital Details
+To find a physician by their exact name and the hospital they work at
+
+MATCH (p:physician)<-[:recruit]-(h:hospital)
+WHERE p.Physician_Name = "Dr. Ng Yee Siang"
+RETURN p.Physician_Name AS Name, 
+       p.Specialization AS Specialization, 
+       p.License_Number AS LicenseNumber, 
+       p.Contact_Number AS ContactNumber,
+       h.`Hospital Name` AS HospitalName, 
+       h.`Contact Number` AS HospitalContactNumber;
+
+
+3. Retrieve Physician by Specific License Number with Hospital Details
+To find a physician by their license number and the hospital they work at
+
+MATCH (p:physician)<-[:recruit]-(h:hospital)
+WHERE p.License_Number = 48720
+RETURN p.Physician_Name AS Name, 
+       p.Specialization AS Specialization, 
+       p.License_Number AS LicenseNumber, 
+       p.Contact_Number AS ContactNumber,
+       h.`Hospital Name` AS HospitalName, 
+       h.`Contact Number` AS HospitalContactNumber;
+
+
+4. Retrieve Physicians Contactable for a Specific Specialization 
+To find the contact numbers of physicians with a specific specialization 
+
+MATCH (p:physician)<-[:recruit]-(h:hospital)
+WHERE p.Specialization = "Neurology"
+RETURN p.Physician_Name AS Name, 
+       p.Contact_Number AS ContactNumber;
+
+
+5. Retrieve Physicians with Specific Specializations in a Specific Hospital
+To find physicians belonging to more than one specialization and the hospital they work at
+
+MATCH (p:physician)<-[:recruit]-(h:hospital)
+WHERE h.`Hospital Name` = "Penang General Hospital" AND 
+      p.Specialization IN ["Cardiology", "Orthopedics"] 
+RETURN p.Physician_Name AS Name, 
+       p.Specialization AS Specialization, 
+       p.License_Number AS LicenseNumber, 
+       p.Contact_Number AS ContactNumber;
+
+
+6. Retrieve Physicians with Multiple specific Specializations in Multiple Hospital
+To find physicians belonging to more than one specialization and multiple hospital they work at
+
+MATCH (p:physician)<-[:recruit]-(h:hospital)
+WHERE h.`Hospital Name` IN ["Penang General Hospital", "Penang Adventist Hospital"] AND 
+      p.Specialization IN ["Cardiology", "Orthopedics"]
+RETURN p.Physician_Name AS Name, 
+       p.Specialization AS Specialization, 
+       p.License_Number AS LicenseNumber, 
+       p.Contact_Number AS ContactNumber,
+       h.`Hospital Name` AS HospitalName, 
+       h.`Contact Number` AS HospitalContactNumber;
+

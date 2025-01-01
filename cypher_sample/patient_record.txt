@@ -1,0 +1,34 @@
+1. Patient Checkup and Physician Details for Nursing Workflow
+This query retrieves essential details from the patient checkup and physician records to support nursing workflows. It includes critical information such as the diagnosis, treatment, medication, dosage, and room number, along with the attending physician's name, specialization, and contact information. These details enable nurses to efficiently manage patient care, medication schedules, and physician coordination.
+
+MATCH (p:patient {Patient_ID: 1})-[:has]->(c:checkup)<-[:attend]-(ph:physician)
+RETURN 
+    p.Name AS PatientName,
+    c.Checkup_ID AS CheckupID, 
+    c.Patient_ID AS PatientID, 
+    c.Diagnosis AS Diagnosis, 
+    c.Diagnosis_Condition AS DiagnosisCondition, 
+    c.Treatment AS Treatment, 
+    c.Medication AS Medication, 
+    c.Dosage AS Dosage, 
+    c.`Length_of_Stay (LOS)` AS Length_of_Stay, 
+    c.Admission_Date AS AdmissionDate, 
+    c.Discharge_Date AS DischargeDate,
+    c.Discharge_Condition AS DischargeCondition,
+    c.Room_Number AS RoomNumber,
+    ph.Physician_Name AS PhysicianName, 
+    ph.Specialization AS PhysicianSpecialization, 
+    ph.License_Number AS PhysicianLicenseNumber, 
+    ph.Contact_Number AS PhysicianContactNumber;
+
+2. Retrieve All Properties of a Patient by Identity Number
+This query retrieves all properties of a patient node based on their unique identity number (Identity_number). It outputs all the attributes of the patient in a key-value format, providing a complete view of the patient's details, such as name, contact information, allergies, and medical history.
+
+MATCH (p:patient {Identity_number: "950314-12-1234"})
+RETURN properties(p) AS PatientProperties; 
+
+3.Retrieve All Properties of a Patient by Patient ID
+This query retrieves all properties of a patient node using their unique Patient_ID. It outputs the entire set of attributes related to the patient, including personal and medical information, enabling a comprehensive overview of their profile.
+
+MATCH (p:patient {Patient_ID: 1})
+RETURN properties(p) AS PatientProperties; 

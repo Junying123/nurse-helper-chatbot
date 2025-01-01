@@ -1,0 +1,781 @@
+Checkup_ID,Admission_Type,Checkup_Status,Admission_Date,Discharge_Date,Discharge_Condition,Length_of_Stay (LOS),Diagnosis,Diagnosis_Condition,Test_Results,Treatment,Medication,Dosage,Dosage_Time,Specialisation,Physician_ID,Hospital_ID,Patient_ID,Room_Number
+1,Urgent,Discharged,5/9/2024,5/31/2024,Improved,22,Acute myocardial infarction,Severe,Abnormal,Administered thrombolytics,Aspirin,100mg,7 days,Cardiology,4,4,101,A314
+2,Elective,Discharged,5/2/2024,5/5/2024,Follow-Up Needed,3,Torn ACL,Moderate,Normal,ACL reconstruction surgery,Ibuprofen,400mg,5 days,Orthopedics,24,11,163,F304
+3,Emergency,Discharged,3/22/2024,4/1/2024,Stable,10,Aneurysm,Severe,Inconclusive,MRI scan and monitoring,Paracetamol,500mg,Ongoing,Neurology,36,1,216,B322
+4,Elective,Discharged,2/9/2024,2/9/2024,Transferred,0,Health screening,Unclassified,Normal,"Routine checkup, blood tests",Metformin,500mg,10 days,General Medicine,314,6,38,D430
+5,Urgent,Discharged,9/23/2024,9/24/2024,Stable,1,Upper respiratory infection,Mild,Abnormal,Antibiotic course,Amoxicillin,250mg,7 days,Pulmonology,78,6,115,A297
+6,Emergency,Discharged,3/31/2024,4/2/2024,Improved,2,Food Poisoning,Mild,Normal,Rest and hydration,Prednisone,20mg,5 days,General Medicine,97,1,251,D205
+7,Urgent,Discharged,9/2/2024,9/5/2024,Stable,3,Gastritis,Mild,Normal,Antacid prescription,Lisinopril,10mg,14 days,Gastroenterology,10,10,8,B244
+8,Elective,Discharged,6/15/2024,6/18/2024,Improved,3,COVID-19,Mild,Normal,Antibiotic course,Metformin,2000 IU,30 days,Pulmonology,198,1,302,B158
+9,Emergency,Discharged,7/18/2024,7/21/2024,Stable,3,Asthma exacerbation,Mild,Abnormal,Inhaler therapy,Albuterol,90mcg,Ongoing,Pulmonology,216,9,418,D398
+10,Urgent,Discharged,2/23/2024,2/24/2024,Improved,1,Seasonal allergy,Mild,Normal,Antihistamine prescription,Cetirizine,10mg,7 days,General Medicine,262,8,507,D125
+11,Emergency,Discharged,6/12/2024,6/13/2024,Transferred,1,Back pain,Mild,Normal,Dialysis,Ceftriaxone,1000 IU,30 days,Orthopedics,255,5,325,D101
+12,Elective,Open,9/13/2024,,,,Migraine,Mild,Abnormal,Corticosteroid injection,Metformin,500mcg,14 days,Neurology,267,17,196,C325
+13,Elective,Discharged,8/8/2024,8/31/2024,Improved,23,COVID-19,Severe,Normal,Wound care,Lisinopril,250mg,7 days,Pulmonology,166,10,245,B438
+14,Emergency,Open,5/7/2024,,,,Migraine,Mild,Abnormal,Dialysis,Aspirin,90mcg,30 days,Neurology,102,16,36,F152
+15,Emergency,Open,9/14/2024,,,,Pneumonia,Moderate,Abnormal,Pain management,Ibuprofen,400mg,10 days,Pulmonology,45,2,85,B425
+16,Emergency,Discharged,1/25/2024,2/1/2024,,7,Arthritis,Moderate,Normal,Pain management,Gabapentin,1000 IU,14 days,Orthopedics,35,15,150,D309
+17,Emergency,Discharged,4/11/2024,4/16/2024,,5,Pneumonia,Moderate,Inconclusive,Pain management,Prednisone,50mg,10 days,Pulmonology,185,12,284,F454
+18,Urgent,Discharged,3/2/2024,3/9/2024,,7,Pneumonia,Moderate,Inconclusive,Antibiotic course,Ibuprofen,400mg,10 days,Pulmonology,23,12,184,F329
+19,Elective,Open,6/13/2024,,,,Back pain,Mild,Normal,Physical therapy,Albuterol,2000 IU,5 days,Orthopedics,13,4,234,E148
+20,Elective,Discharged,1/24/2024,1/29/2024,Improved,5,Pneumonia,Moderate,Normal,Blood pressure management,Metformin,400mg,10 days,Pulmonology,198,1,30,F405
+21,Elective,Discharged,3/3/2024,3/9/2024,Stable,6,Fractured bone,Moderate,Abnormal,Physical therapy,Amoxicillin,2000 IU,10 days,Orthopedics,46,2,445,C405
+22,Urgent,Open,3/26/2024,,,,Pneumonia,Moderate,Abnormal,Bronchodilator therapy,Amoxicillin,2000 IU,5 days,Pulmonology,328,12,364,C452
+23,Elective,Open,3/9/2024,,,,Arthritis,Moderate,Inconclusive,Pain management,Metformin,400mg,14 days,Orthopedics,101,3,173,B346
+24,Urgent,Discharged,8/1/2024,8/8/2024,Transferred,7,Diabetes mellitus,Moderate,Inconclusive,Dialysis,Paracetamol,2000 IU,5 days,Endocrinology,93,15,207,B478
+25,Elective,Discharged,7/19/2024,7/23/2024,Transferred,4,Hypertension,Moderate,Normal,Antibiotic course,Ceftriaxone,500mcg,7 days,Cardiology,114,13,269,D269
+26,Urgent,Open,7/6/2024,,,,Diabetes mellitus,Moderate,Abnormal,IV fluids,Prednisone,90mcg,7 days,Endocrinology,126,9,367,B161
+27,Emergency,Discharged,2/17/2024,2/27/2024,,10,Pneumonia,Moderate,Abnormal,Blood pressure management,Albuterol,400mg,7 days,Pulmonology,177,12,164,D378
+28,Urgent,Open,7/8/2024,,,,Diabetes mellitus,Moderate,Inconclusive,Blood pressure management,Amoxicillin,250mg,30 days,Endocrinology,181,18,174,B332
+29,Elective,Discharged,7/25/2024,7/26/2024,Transferred,1,Back pain,Mild,Inconclusive,Antibiotic course,Prednisone,50mg,Ongoing,Orthopedics,200,11,232,E147
+30,Emergency,Open,5/4/2024,5/14/2024,,10,COVID-19,Severe,Normal,Corticosteroid injection,Albuterol,500mcg,10 days,Pulmonology,221,4,224,F278
+31,Elective,Discharged,9/30/2024,10/7/2024,Transferred,7,Pneumonia,Moderate,Inconclusive,Pain management,Gabapentin,400mg,14 days,Pulmonology,88,11,504,F437
+32,Elective,Discharged,4/7/2024,4/10/2024,,3,Back pain,Mild,Inconclusive,Dialysis,Ibuprofen,90mcg,14 days,Orthopedics,233,16,403,C110
+33,Elective,Discharged,4/15/2024,4/22/2024,Follow-Up Needed,7,Pneumonia,Moderate,Abnormal,Antibiotic course,Gabapentin,10mg,10 days,Pulmonology,243,19,177,E355
+34,Elective,Open,7/24/2024,,,,Fractured bone,Moderate,Abnormal,Pain management,Lisinopril,50mg,10 days,Orthopedics,79,8,312,E122
+35,Elective,Discharged,6/17/2024,7/11/2024,Improved,24,COVID-19,Severe,Abnormal,Blood pressure management,Metformin,10mg,14 days,Pulmonology,265,7,634,C173
+36,Emergency,Discharged,8/29/2024,9/2/2024,Improved,4,Diabetes mellitus,Moderate,Abnormal,Wound care,Gabapentin,250mg,7 days,Endocrinology,82,18,522,F274
+37,Emergency,Open,1/24/2024,,,,Diabetes mellitus,Moderate,Abnormal,IV fluids,Paracetamol,250mg,7 days,Endocrinology,27,8,107,A199
+38,Urgent,Open,4/17/2024,,,,Diabetes mellitus,Moderate,Inconclusive,Dialysis,Albuterol,100mg,30 days,Endocrinology,5,5,7,C121
+39,Urgent,Discharged,2/28/2024,3/10/2024,Transferred,11,COVID-19,Severe,Abnormal,Blood pressure management,Albuterol,10mg,7 days,Pulmonology,12,6,1,F452
+40,Emergency,Discharged,1/25/2024,1/27/2024,,2,Bronchitis,Mild,Normal,Pain management,Aspirin,400mg,14 days,Pulmonology,100,1,205,A161
+41,Emergency,Discharged,6/26/2024,7/3/2024,Follow-Up Needed,7,Fractured bone,Moderate,Normal,Wound care,Amoxicillin,500mg,5 days,Orthopedics,123,10,292,A346
+42,Urgent,Discharged,10/9/2024,10/11/2024,Improved,2,Bronchitis,Mild,Inconclusive,Corticosteroid injection,Albuterol,2000 IU,5 days,Pulmonology,144,3,245,D240
+43,Elective,Discharged,8/25/2024,9/4/2024,Follow-Up Needed,10,Kidney infection,Moderate,Normal,Dialysis,Albuterol,90mcg,10 days,Nephrology,43,16,214,D344
+44,Elective,Discharged,2/1/2024,3/26/2024,,54,Hypertension,Moderate,Abnormal,Wound care,Albuterol,10mg,10 days,Cardiology,213,17,9,F387
+45,Emergency,Discharged,3/13/2024,3/15/2024,Follow-Up Needed,2,Back pain,Mild,Abnormal,Wound care,Aspirin,90mcg,30 days,Orthopedics,222,19,525,A152
+46,Urgent,Open,3/7/2024,,,,Pneumonia,Moderate,Abnormal,Pain management,Gabapentin,1000 IU,7 days,Pulmonology,122,9,411,F307
+47,Emergency,Open,2/14/2024,,,,Back pain,Mild,Inconclusive,Physical therapy,Ibuprofen,400mg,10 days,Orthopedics,189,14,352,C293
+48,Elective,Discharged,8/20/2024,8/29/2024,Stable,9,Pneumonia,Moderate,Abnormal,Dialysis,Paracetamol,400mg,7 days,Pulmonology,133,19,510,D242
+49,Urgent,Discharged,8/28/2024,9/4/2024,Transferred,7,Diabetes mellitus,Moderate,Abnormal,Physical therapy,Lisinopril,250mg,14 days,Endocrinology,87,17,373,A251
+50,Emergency,Discharged,8/30/2024,9/5/2024,Transferred,6,Kidney infection,Moderate,Abnormal,Physical therapy,Prednisone,500mcg,10 days,Nephrology,171,5,88,D489
+51,Urgent,Discharged,5/21/2024,5/26/2024,Improved,5,Arthritis,Moderate,Normal,Wound care,Albuterol,10mg,14 days,Orthopedics,241,11,112,F240
+52,Emergency,Discharged,7/13/2024,7/16/2024,Stable,3,Bronchitis,Mild,Inconclusive,Bronchodilator therapy,Lisinopril,90mcg,7 days,Pulmonology,210,13,50,A397
+53,Elective,Discharged,6/7/2024,6/12/2024,Follow-Up Needed,5,Hypertension,Moderate,Normal,Physical therapy,Gabapentin,2000 IU,5 days,Cardiology,235,9,161,A381
+54,Elective,Discharged,2/10/2024,2/14/2024,Transferred,4,Hypertension,Moderate,Inconclusive,Physical therapy,Gabapentin,500mg,5 days,Cardiology,70,5,241,E459
+55,Urgent,Discharged,4/15/2024,4/17/2024,Stable,2,Migraine,Mild,Abnormal,Wound care,Aspirin,2000 IU,5 days,Neurology,263,6,259,E320
+56,Elective,Discharged,2/5/2024,2/12/2024,Follow-Up Needed,7,Fractured bone,Moderate,Normal,Corticosteroid injection,Paracetamol,400mg,10 days,Orthopedics,145,1,152,A403
+57,Elective,Discharged,8/27/2024,9/3/2024,Transferred,7,Pneumonia,Moderate,Abnormal,Bronchodilator therapy,Prednisone,500mcg,Ongoing,Pulmonology,254,18,199,B451
+58,Emergency,Open,6/27/2024,,,,Fractured bone,Moderate,Inconclusive,Bronchodilator therapy,Prednisone,400mg,30 days,Orthopedics,200,11,212,E103
+59,Urgent,Open,6/18/2024,,,,Hypertension,Moderate,Inconclusive,Physical therapy,Albuterol,90mcg,14 days,Cardiology,169,6,321,A144
+60,Elective,Open,7/31/2024,,,,Bronchitis,Mild,Abnormal,Pain management,Albuterol,100mg,14 days,Pulmonology,111,15,5,D316
+61,Elective,Discharged,3/26/2024,4/4/2024,Stable,9,Kidney infection,Moderate,Normal,Pain management,Ibuprofen,90mcg,7 days,Nephrology,61,4,168,A391
+62,Emergency,Open,5/2/2024,,,,Pneumonia,Moderate,Abnormal,Corticosteroid injection,Metformin,50mg,10 days,Pulmonology,12,6,626,C234
+63,Emergency,Discharged,5/21/2024,5/22/2024,Stable,1,Bronchitis,Mild,Abnormal,Bronchodilator therapy,Prednisone,500mcg,14 days,Pulmonology,78,6,165,E197
+64,Urgent,Discharged,9/25/2024,10/1/2024,,6,Diabetes mellitus,Moderate,Normal,Dialysis,Gabapentin,90mcg,5 days,Endocrinology,16,11,45,F379
+65,Elective,Discharged,5/19/2024,5/21/2024,Improved,2,Migraine,Mild,Abnormal,Bronchodilator therapy,Prednisone,10mg,30 days,Neurology,91,6,359,B307
+66,Urgent,Discharged,9/24/2024,9/30/2024,Transferred,6,Fractured bone,Moderate,Abnormal,Blood pressure management,Ibuprofen,500mg,Ongoing,Orthopedics,142,18,132,E339
+67,Emergency,Discharged,1/28/2024,1/29/2024,Stable,1,Back pain,Mild,Inconclusive,Physical therapy,Prednisone,500mcg,14 days,Orthopedics,187,16,92,E445
+68,Emergency,Open,4/13/2024,,,,Hypertension,Moderate,Normal,Blood pressure management,Paracetamol,250mg,5 days,Cardiology,114,13,81,A422
+69,Emergency,Open,1/2/2024,,,,Kidney infection,Moderate,Normal,Surgery,Aspirin,250mg,Ongoing,Nephrology,83,11,334,E158
+70,Urgent,Discharged,3/17/2024,3/19/2024,,2,Bronchitis,Mild,Normal,Wound care,Paracetamol,10mg,Ongoing,Pulmonology,251,14,124,E292
+71,Urgent,Open,8/31/2024,,,,Fractured bone,Moderate,Abnormal,Dialysis,Paracetamol,400mg,5 days,Orthopedics,44,6,338,C442
+72,Emergency,Open,2/10/2024,,,,Fractured bone,Moderate,Abnormal,Bronchodilator therapy,Aspirin,10mg,10 days,Orthopedics,222,19,319,A467
+73,Urgent,Discharged,6/2/2024,6/7/2024,,5,Pneumonia,Moderate,Normal,Blood pressure management,Lisinopril,500mg,14 days,Pulmonology,56,11,280,D120
+74,Emergency,Open,9/18/2024,,,,Migraine,Mild,Abnormal,Antibiotic course,Prednisone,10mg,30 days,Neurology,146,18,359,D377
+75,Elective,Discharged,1/29/2024,2/8/2024,Transferred,10,COVID-19,Severe,Normal,Physical therapy,Albuterol,400mg,5 days,Pulmonology,216,9,435,D394
+76,Urgent,Open,3/29/2024,,,,Fractured bone,Moderate,Normal,Dialysis,Amoxicillin,100mg,14 days,Orthopedics,2,2,52,E222
+77,Elective,Discharged,7/7/2024,7/9/2024,Follow-Up Needed,2,Migraine,Mild,Inconclusive,Corticosteroid injection,Ceftriaxone,2000 IU,7 days,Neurology,14,17,179,B434
+78,Urgent,Open,5/8/2024,,,,Migraine,Mild,Abnormal,Dialysis,Gabapentin,500mcg,7 days,Neurology,190,16,241,C122
+79,Urgent,Discharged,3/10/2024,3/16/2024,Follow-Up Needed,6,Pneumonia,Moderate,Normal,Pain management,Paracetamol,50mg,7 days,Pulmonology,254,18,350,F273
+80,Elective,Discharged,10/3/2024,10/9/2024,Transferred,6,Diabetes mellitus,Moderate,Inconclusive,Surgery,Lisinopril,90mcg,30 days,Endocrinology,225,11,293,B330
+81,Elective,Discharged,6/16/2024,6/21/2024,Improved,5,Hypertension,Moderate,Normal,IV fluids,Aspirin,250mg,Ongoing,Cardiology,48,6,596,E321
+82,Emergency,Discharged,2/25/2024,3/6/2024,Improved,10,COVID-19,Severe,Inconclusive,Antibiotic course,Ibuprofen,500mg,Ongoing,Pulmonology,23,12,603,F179
+83,Urgent,Discharged,3/27/2024,4/2/2024,Improved,6,Diabetes mellitus,Moderate,Inconclusive,Blood pressure management,Paracetamol,400mg,10 days,Endocrinology,71,9,133,A368
+84,Urgent,Discharged,3/21/2024,4/2/2024,Improved,12,COVID-19,Severe,Normal,Pain management,Amoxicillin,90mcg,10 days,Pulmonology,199,15,505,F282
+85,Urgent,Open,7/4/2024,,,,Back pain,Mild,Inconclusive,Dialysis,Albuterol,1000 IU,10 days,Orthopedics,187,16,392,B316
+86,Elective,Discharged,3/19/2024,3/22/2024,Stable,3,Bronchitis,Mild,Normal,Wound care,Gabapentin,1000 IU,14 days,Pulmonology,265,7,57,F350
+87,Emergency,Discharged,10/17/2024,10/24/2024,Follow-Up Needed,7,Pneumonia,Moderate,Abnormal,Surgery,Paracetamol,500mg,7 days,Pulmonology,243,19,119,C374
+88,Urgent,Discharged,6/30/2024,7/1/2024,Improved,1,Bronchitis,Mild,Abnormal,Bronchodilator therapy,Aspirin,10mg,14 days,Pulmonology,76,13,258,C389
+89,Elective,Discharged,8/10/2024,9/1/2024,Improved,22,COVID-19,Severe,Inconclusive,Antibiotic course,Metformin,2000 IU,14 days,Pulmonology,133,19,344,A253
+90,Emergency,Open,8/14/2024,,,,Migraine,Mild,Inconclusive,Pain management,Ibuprofen,250mg,7 days,Neurology,36,1,428,A398
+91,Emergency,Open,7/12/2024,,,,Bronchitis,Mild,Inconclusive,Antibiotic course,Paracetamol,500mcg,14 days,Pulmonology,121,17,291,C351
+92,Emergency,Open,4/6/2024,,,,Diabetes mellitus,Moderate,Abnormal,Corticosteroid injection,Gabapentin,1000 IU,Ongoing,Endocrinology,170,16,155,F406
+93,Elective,Open,7/16/2024,,,,Fractured bone,Moderate,Abnormal,Corticosteroid injection,Metformin,400mg,30 days,Orthopedics,280,18,332,B417
+94,Emergency,Discharged,2/1/2024,2/3/2024,Improved,2,Bronchitis,Mild,Inconclusive,Wound care,Aspirin,400mg,Ongoing,Pulmonology,199,15,195,B196
+95,Urgent,Discharged,9/19/2024,9/24/2024,Transferred,5,Pneumonia,Moderate,Normal,IV fluids,Metformin,1000 IU,Ongoing,Pulmonology,210,13,285,C414
+96,Elective,Open,5/22/2024,,,,Back pain,Mild,Abnormal,Physical therapy,Ibuprofen,400mg,14 days,Orthopedics,233,16,330,C436
+97,Elective,Discharged,4/6/2024,4/9/2024,,3,Bronchitis,Mild,Abnormal,IV fluids,Metformin,500mcg,5 days,Pulmonology,155,19,598,E438
+98,Urgent,Open,5/25/2024,,,,Fractured bone,Moderate,Abnormal,Blood pressure management,Metformin,500mg,5 days,Orthopedics,112,12,78,B181
+99,Urgent,Discharged,1/18/2024,1/23/2024,,5,Arthritis,Moderate,Inconclusive,IV fluids,Albuterol,50mg,14 days,Orthopedics,187,16,120,F262
+100,Elective,Open,8/28/2024,,,,Diabetes mellitus,Moderate,Inconclusive,Corticosteroid injection,Lisinopril,1000 IU,10 days,Endocrinology,209,4,348,F312
+101,Emergency,Open,9/19/2024,,,,Fractured bone,Moderate,Normal,Wound care,Paracetamol,100mg,7 days,Orthopedics,35,15,392,E358
+102,Urgent,Discharged,4/30/2024,5/5/2024,Stable,5,Hypertension,Moderate,Abnormal,Surgery,Prednisone,500mg,14 days,Cardiology,26,7,261,D259
+103,Urgent,Discharged,3/4/2024,3/11/2024,Improved,7,Kidney infection,Moderate,Abnormal,Dialysis,Aspirin,400mg,14 days,Nephrology,116,18,402,E463
+104,Emergency,Discharged,3/8/2024,3/13/2024,Improved,5,Pneumonia,Moderate,Normal,IV fluids,Metformin,100mg,Ongoing,Pulmonology,45,2,225,A491
+105,Elective,Discharged,8/12/2024,8/31/2024,,19,COVID-19,Severe,Abnormal,Blood pressure management,Lisinopril,10mg,5 days,Pulmonology,111,15,604,C437
+106,Emergency,Discharged,6/6/2024,6/11/2024,Transferred,5,Fractured bone,Moderate,Abnormal,Physical therapy,Albuterol,10mg,5 days,Orthopedics,134,1,210,E210
+107,Elective,Open,3/27/2024,,,,Back pain,Mild,Inconclusive,Dialysis,Metformin,90mcg,14 days,Orthopedics,167,16,501,C412
+108,Urgent,Discharged,4/14/2024,4/21/2024,,7,Arthritis,Moderate,Inconclusive,Blood pressure management,Lisinopril,500mcg,10 days,Orthopedics,200,11,353,C341
+109,Urgent,Discharged,1/24/2024,2/3/2024,,10,COVID-19,Severe,Inconclusive,Pain management,Ibuprofen,10mg,5 days,Pulmonology,316,17,144,B275
+110,Emergency,Discharged,7/4/2024,7/6/2024,Transferred,2,Bronchitis,Mild,Inconclusive,Dialysis,Gabapentin,90mcg,14 days,Pulmonology,254,18,494,D310
+111,Emergency,Discharged,9/1/2024,9/6/2024,Transferred,5,Kidney infection,Moderate,Abnormal,Bronchodilator therapy,Gabapentin,400mg,30 days,Nephrology,186,16,294,D161
+112,Urgent,Discharged,7/12/2024,7/13/2024,Transferred,1,Bronchitis,Mild,Abnormal,Surgery,Ceftriaxone,500mg,7 days,Pulmonology,143,17,400,D326
+113,Emergency,Discharged,5/7/2024,6/15/2024,,39,COVID-19,Severe,Abnormal,Pain management,Ibuprofen,2000 IU,30 days,Pulmonology,34,5,504,C352
+114,Emergency,Open,3/9/2024,,,,Arthritis,Moderate,Normal,Corticosteroid injection,Amoxicillin,1000 IU,5 days,Orthopedics,24,11,266,C355
+115,Urgent,Open,4/29/2024,5/9/2024,,10,COVID-19,Severe,Normal,Corticosteroid injection,Ibuprofen,1000 IU,10 days,Pulmonology,281,7,102,F293
+116,Elective,Open,2/21/2024,,,,Fractured bone,Moderate,Abnormal,Blood pressure management,Gabapentin,100mg,Ongoing,Orthopedics,90,12,315,B467
+117,Elective,Discharged,2/3/2024,2/5/2024,Improved,2,Migraine,Mild,Abnormal,Blood pressure management,Amoxicillin,500mcg,7 days,Neurology,212,10,219,C164
+118,Elective,Open,6/29/2024,,,,Hypertension,Moderate,Normal,Corticosteroid injection,Metformin,1000 IU,10 days,Cardiology,271,11,383,C409
+119,Urgent,Open,2/19/2024,,,,Kidney infection,Moderate,Normal,Antibiotic course,Metformin,2000 IU,14 days,Nephrology,186,16,228,B403
+120,Urgent,Open,4/26/2024,5/6/2024,,10,COVID-19,Severe,Abnormal,Dialysis,Amoxicillin,400mg,10 days,Pulmonology,177,12,517,A186
+121,Elective,Open,10/15/2024,,,,Fractured bone,Moderate,Inconclusive,IV fluids,Prednisone,500mg,10 days,Orthopedics,79,8,495,E130
+122,Urgent,Discharged,10/5/2024,10/12/2024,Transferred,7,Hypertension,Moderate,Normal,Blood pressure management,Metformin,2000 IU,Ongoing,Cardiology,15,15,21,A237
+123,Emergency,Open,10/13/2024,,,,Bronchitis,Mild,Inconclusive,Dialysis,Metformin,90mcg,Ongoing,Pulmonology,242,10,176,E499
+124,Urgent,Open,8/20/2024,,,,Bronchitis,Mild,Abnormal,Wound care,Aspirin,90mcg,7 days,Pulmonology,221,4,413,F330
+125,Emergency,Discharged,6/23/2024,6/24/2024,,1,Back pain,Mild,Abnormal,Physical therapy,Amoxicillin,1000 IU,10 days,Orthopedics,280,18,352,B378
+126,Emergency,Open,3/29/2024,4/8/2024,,10,COVID-19,Severe,Normal,Pain management,Albuterol,2000 IU,5 days,Pulmonology,111,15,385,A241
+127,Urgent,Discharged,3/28/2024,3/30/2024,Improved,2,Migraine,Mild,Normal,Wound care,Gabapentin,250mg,5 days,Neurology,91,6,437,A257
+128,Urgent,Open,4/25/2024,,,,Kidney infection,Moderate,Inconclusive,Antibiotic course,Amoxicillin,400mg,5 days,Nephrology,285,15,499,E106
+129,Elective,Discharged,7/18/2024,7/25/2024,Follow-Up Needed,7,Pneumonia,Moderate,Abnormal,Antibiotic course,Aspirin,2000 IU,14 days,Pulmonology,1,1,463,C227
+130,Urgent,Open,5/22/2024,,,,Migraine,Mild,Normal,Corticosteroid injection,Gabapentin,400mg,14 days,Neurology,58,12,87,B299
+131,Urgent,Open,10/18/2024,,,,Pneumonia,Moderate,Abnormal,Wound care,Ibuprofen,50mg,14 days,Pulmonology,78,6,597,A284
+132,Emergency,Discharged,5/9/2024,5/15/2024,Stable,6,Pneumonia,Moderate,Abnormal,Pain management,Prednisone,2000 IU,30 days,Pulmonology,154,18,435,A120
+133,Urgent,Discharged,4/9/2024,4/15/2024,Stable,6,Pneumonia,Moderate,Inconclusive,Surgery,Metformin,90mcg,Ongoing,Pulmonology,308,6,456,B247
+134,Emergency,Discharged,1/11/2024,1/31/2024,Improved,20,COVID-19,Severe,Abnormal,Pain management,Ibuprofen,500mcg,14 days,Pulmonology,243,19,513,C390
+135,Urgent,Discharged,6/5/2024,6/10/2024,Stable,5,Fractured bone,Moderate,Normal,Blood pressure management,Albuterol,50mg,14 days,Orthopedics,255,5,594,D112
+136,Urgent,Discharged,3/21/2024,3/28/2024,,7,Hypertension,Moderate,Inconclusive,Antibiotic course,Prednisone,1000 IU,10 days,Cardiology,268,10,553,D418
+137,Urgent,Discharged,5/24/2024,6/1/2024,Follow-Up Needed,8,Pneumonia,Moderate,Inconclusive,Pain management,Paracetamol,1000 IU,14 days,Pulmonology,231,14,204,D248
+138,Elective,Open,4/21/2024,,,,Diabetes mellitus,Moderate,Normal,Physical therapy,Albuterol,10mg,5 days,Endocrinology,170,16,362,E332
+139,Urgent,Discharged,5/17/2024,5/22/2024,Improved,5,Fractured bone,Moderate,Abnormal,Bronchodilator therapy,Metformin,90mcg,10 days,Orthopedics,123,10,418,C447
+140,Elective,Open,3/17/2024,,,,Diabetes mellitus,Moderate,Normal,Blood pressure management,Ceftriaxone,400mg,10 days,Endocrinology,33,12,440,B471
+141,Emergency,Discharged,1/17/2024,1/23/2024,Follow-Up Needed,6,Hypertension,Moderate,Inconclusive,Physical therapy,Albuterol,2000 IU,Ongoing,Cardiology,81,5,549,A275
+142,Emergency,Discharged,3/11/2024,3/15/2024,Improved,4,Fractured bone,Moderate,Inconclusive,Physical therapy,Lisinopril,10mg,14 days,Orthopedics,24,11,623,D238
+143,Urgent,Open,8/12/2024,,,,Diabetes mellitus,Moderate,Normal,Antibiotic course,Lisinopril,50mg,Ongoing,Endocrinology,203,8,87,B429
+144,Emergency,Open,9/26/2024,,,,Migraine,Mild,Abnormal,Surgery,Lisinopril,50mg,14 days,Neurology,3,3,299,F349
+145,Elective,Open,2/22/2024,,,,Migraine,Mild,Abnormal,Blood pressure management,Ceftriaxone,50mg,30 days,Neurology,58,12,33,E161
+146,Emergency,Open,1/31/2024,2/21/2024,,21,COVID-19,Severe,Abnormal,Physical therapy,Metformin,1000 IU,30 days,Pulmonology,109,8,598,D116
+147,Urgent,Discharged,2/17/2024,2/23/2024,,6,Pneumonia,Moderate,Inconclusive,Blood pressure management,Albuterol,500mg,5 days,Pulmonology,54,19,445,F130
+148,Emergency,Discharged,3/20/2024,3/29/2024,,9,Pneumonia,Moderate,Abnormal,Antibiotic course,Metformin,500mg,Ongoing,Pulmonology,244,3,514,E119
+149,Urgent,Discharged,8/14/2024,8/20/2024,Stable,6,Arthritis,Moderate,Normal,IV fluids,Ceftriaxone,250mg,Ongoing,Orthopedics,240,14,609,D308
+150,Elective,Open,6/17/2024,,,,Diabetes mellitus,Moderate,Inconclusive,Blood pressure management,Aspirin,400mg,10 days,Endocrinology,137,10,583,C359
+151,Elective,Open,1/31/2024,,,,Back pain,Mild,Normal,Physical therapy,Gabapentin,50mg,10 days,Orthopedics,57,16,526,A417
+152,Urgent,Discharged,7/29/2024,8/4/2024,Stable,6,Fractured bone,Moderate,Inconclusive,Blood pressure management,Ibuprofen,10mg,14 days,Orthopedics,112,12,486,D172
+153,Urgent,Discharged,2/11/2024,2/22/2024,Stable,11,COVID-19,Severe,Inconclusive,Dialysis,Paracetamol,400mg,5 days,Pulmonology,34,5,86,F311
+154,Elective,Discharged,6/25/2024,7/1/2024,Transferred,6,Pneumonia,Moderate,Inconclusive,Surgery,Metformin,90mcg,5 days,Pulmonology,76,13,127,E124
+155,Emergency,Discharged,4/22/2024,4/25/2024,,3,Back pain,Mild,Abnormal,Antibiotic course,Metformin,100mg,10 days,Orthopedics,68,1,190,D284
+156,Urgent,Open,1/11/2024,,,,Migraine,Mild,Inconclusive,Wound care,Metformin,90mcg,30 days,Neurology,157,9,627,F237
+157,Emergency,Discharged,1/20/2024,1/30/2024,Improved,10,COVID-19,Severe,Abnormal,Surgery,Paracetamol,50mg,14 days,Pulmonology,308,6,215,F186
+158,Emergency,Discharged,3/20/2024,3/30/2024,Transferred,10,Kidney infection,Moderate,Normal,Surgery,Metformin,500mcg,Ongoing,Nephrology,204,3,254,E200
+159,Urgent,Discharged,1/7/2024,1/12/2024,,5,Hypertension,Moderate,Normal,Bronchodilator therapy,Ceftriaxone,1000 IU,30 days,Cardiology,202,11,297,D464
+160,Urgent,Discharged,5/2/2024,5/12/2024,,10,Pneumonia,Moderate,Normal,Surgery,Ibuprofen,250mg,Ongoing,Pulmonology,199,15,358,D140
+161,Emergency,Open,10/16/2024,,,,Back pain,Mild,Normal,Blood pressure management,Ceftriaxone,100mg,14 days,Orthopedics,156,3,275,D288
+162,Emergency,Open,2/22/2024,3/3/2024,,10,COVID-19,Severe,Abnormal,Bronchodilator therapy,Ceftriaxone,90mcg,Ongoing,Pulmonology,54,19,58,F248
+163,Emergency,Discharged,9/15/2024,9/20/2024,Improved,5,Hypertension,Moderate,Normal,Dialysis,Gabapentin,10mg,7 days,Cardiology,164,18,479,E207
+164,Emergency,Discharged,4/1/2024,4/4/2024,Stable,3,Back pain,Mild,Normal,Wound care,Ibuprofen,400mg,30 days,Orthopedics,2,2,333,D476
+165,Elective,Discharged,10/9/2024,10/15/2024,Stable,6,Fractured bone,Moderate,Normal,Wound care,Paracetamol,500mg,10 days,Orthopedics,62,5,142,B487
+166,Emergency,Open,7/27/2024,,,,Diabetes mellitus,Moderate,Inconclusive,IV fluids,Ibuprofen,500mg,Ongoing,Endocrinology,49,17,182,B459
+167,Urgent,Open,10/2/2024,,,,Migraine,Mild,Normal,Wound care,Amoxicillin,90mcg,14 days,Neurology,113,5,136,E187
+168,Urgent,Discharged,7/21/2024,7/26/2024,Transferred,5,Kidney infection,Moderate,Normal,Corticosteroid injection,Metformin,50mg,30 days,Nephrology,99,17,108,D362
+169,Emergency,Open,7/29/2024,,,,Diabetes mellitus,Moderate,Normal,Antibiotic course,Ibuprofen,10mg,14 days,Endocrinology,38,15,82,C411
+170,Elective,Open,1/23/2024,,,,Kidney infection,Moderate,Normal,Bronchodilator therapy,Aspirin,100mg,10 days,Nephrology,66,11,294,D382
+171,Elective,Discharged,9/9/2024,9/11/2024,Transferred,2,Migraine,Mild,Abnormal,Corticosteroid injection,Amoxicillin,250mg,5 days,Neurology,245,2,428,D271
+172,Elective,Discharged,5/20/2024,5/25/2024,Improved,5,Pneumonia,Moderate,Abnormal,Bronchodilator therapy,Amoxicillin,250mg,7 days,Pulmonology,198,13,620,A480
+173,Urgent,Discharged,8/14/2024,8/20/2024,Transferred,6,Kidney infection,Moderate,Normal,Physical therapy,Ibuprofen,2000 IU,30 days,Nephrology,6,19,579,B119
+174,Urgent,Discharged,3/13/2024,3/19/2024,Transferred,6,Diabetes mellitus,Moderate,Inconclusive,Blood pressure management,Paracetamol,250mg,14 days,Endocrinology,33,12,502,F333
+175,Elective,Open,10/5/2024,,,,Diabetes mellitus,Moderate,Normal,Surgery,Amoxicillin,10mg,Ongoing,Endocrinology,159,6,422,C259
+176,Urgent,Open,3/13/2024,,,,Arthritis,Moderate,Abnormal,Blood pressure management,Gabapentin,50mg,Ongoing,Orthopedics,90,12,526,E478
+177,Elective,Open,9/27/2024,,,,Kidney infection,Moderate,Normal,Antibiotic course,Gabapentin,250mg,Ongoing,Nephrology,72,14,433,A246
+178,Elective,Open,3/9/2024,,,,Migraine,Mild,Inconclusive,Antibiotic course,Paracetamol,50mg,7 days,Neurology,47,4,356,E297
+179,Urgent,Open,3/13/2024,,,,Back pain,Mild,Inconclusive,Pain management,Albuterol,100mg,7 days,Orthopedics,24,11,330,E232
+180,Urgent,Open,1/23/2024,,,,Arthritis,Moderate,Abnormal,Pain management,Metformin,2000 IU,7 days,Orthopedics,2,2,302,C304
+181,Elective,Open,4/26/2024,,,,Pneumonia,Moderate,Abnormal,Blood pressure management,Gabapentin,50mg,14 days,Pulmonology,67,18,249,D453
+182,Urgent,Discharged,4/17/2024,4/18/2024,Improved,1,Back pain,Mild,Inconclusive,Physical therapy,Gabapentin,250mg,10 days,Orthopedics,101,3,192,E369
+183,Urgent,Discharged,7/1/2024,7/7/2024,Follow-Up Needed,6,Pneumonia,Moderate,Normal,Physical therapy,Ibuprofen,500mcg,5 days,Pulmonology,321,3,151,A450
+184,Emergency,Discharged,3/7/2024,3/14/2024,Stable,7,Kidney infection,Moderate,Abnormal,Antibiotic course,Ibuprofen,500mcg,30 days,Nephrology,17,5,530,B302
+185,Elective,Discharged,2/6/2024,2/12/2024,,6,Pneumonia,Moderate,Normal,Bronchodilator therapy,Gabapentin,400mg,5 days,Pulmonology,122,9,417,A108
+186,Elective,Discharged,9/24/2024,9/27/2024,,3,Fractured bone,Moderate,Inconclusive,Surgery,Prednisone,400mg,10 days,Orthopedics,79,8,343,F321
+187,Elective,Open,10/8/2024,10/31/2024,Transferred,23,COVID-19,Severe,Normal,Surgery,Ibuprofen,500mcg,10 days,Pulmonology,216,9,483,B234
+188,Urgent,Open,2/15/2024,2/25/2024,Transferred,10,COVID-19,Severe,Abnormal,Pain management,Aspirin,400mg,7 days,Pulmonology,265,7,524,D363
+189,Elective,Discharged,2/27/2024,2/29/2024,Follow-Up Needed,2,Migraine,Mild,Abnormal,Dialysis,Aspirin,500mcg,5 days,Neurology,223,15,566,C481
+190,Emergency,Open,8/2/2024,,,,Arthritis,Moderate,Inconclusive,IV fluids,Prednisone,400mg,10 days,Orthopedics,13,4,458,D245
+191,Emergency,Discharged,7/18/2024,7/22/2024,,4,Arthritis,Moderate,Inconclusive,Wound care,Aspirin,400mg,14 days,Orthopedics,90,12,532,E192
+192,Emergency,Open,5/11/2024,,,,Kidney infection,Moderate,Normal,Antibiotic course,Lisinopril,90mcg,Ongoing,Nephrology,226,6,346,A230
+193,Urgent,Open,4/14/2024,,,,Kidney infection,Moderate,Abnormal,Bronchodilator therapy,Ibuprofen,100mg,14 days,Nephrology,270,12,315,C477
+194,Urgent,Discharged,6/16/2024,6/24/2024,Improved,8,Kidney infection,Moderate,Abnormal,Pain management,Ibuprofen,2000 IU,5 days,Nephrology,94,1,268,D397
+195,Urgent,Discharged,4/2/2024,4/6/2024,Transferred,4,Fractured bone,Moderate,Abnormal,Wound care,Metformin,2000 IU,5 days,Orthopedics,142,18,272,C337
+196,Elective,Discharged,4/7/2024,4/14/2024,Follow-Up Needed,7,Pneumonia,Moderate,Abnormal,Dialysis,Prednisone,50mg,14 days,Pulmonology,56,11,185,E435
+197,Urgent,Open,8/30/2024,,,,Pneumonia,Moderate,Abnormal,Dialysis,Metformin,500mcg,10 days,Pulmonology,185,2,266,C133
+198,Elective,Open,1/28/2024,,,,Bronchitis,Mild,Inconclusive,Dialysis,Ibuprofen,10mg,30 days,Pulmonology,317,5,573,F450
+199,Emergency,Discharged,1/22/2024,1/28/2024,Transferred,6,Arthritis,Moderate,Inconclusive,Physical therapy,Ceftriaxone,2000 IU,14 days,Orthopedics,275,3,609,E361
+200,Urgent,Discharged,5/7/2024,5/13/2024,,6,Pneumonia,Moderate,Normal,Antibiotic course,Lisinopril,2000 IU,10 days,Pulmonology,232,9,519,A206
+201,Urgent,Open,4/17/2024,,,,Bronchitis,Mild,Inconclusive,IV fluids,Amoxicillin,100mg,Ongoing,Pulmonology,88,11,25,C177
+202,Emergency,Discharged,3/31/2024,4/16/2024,,16,Diabetes mellitus,Moderate,Abnormal,Dialysis,Aspirin,90mcg,Ongoing,Endocrinology,247,3,542,C457
+203,Elective,Discharged,9/11/2024,9/14/2024,Stable,3,Bronchitis,Mild,Abnormal,Pain management,Paracetamol,500mg,14 days,Pulmonology,88,11,11,C363
+204,Urgent,Open,6/6/2024,,,,Migraine,Mild,Abnormal,Surgery,Prednisone,10mg,Ongoing,Neurology,256,10,158,A323
+205,Emergency,Discharged,6/23/2024,6/28/2024,Stable,5,Fractured bone,Moderate,Abnormal,Bronchodilator therapy,Ceftriaxone,100mg,10 days,Orthopedics,219,10,200,F426
+206,Urgent,Discharged,7/18/2024,7/24/2024,Improved,6,Arthritis,Moderate,Inconclusive,Surgery,Gabapentin,500mg,14 days,Orthopedics,323,8,193,D273
+207,Urgent,Discharged,1/5/2024,1/10/2024,Improved,5,Kidney infection,Moderate,Inconclusive,Dialysis,Ibuprofen,2000 IU,14 days,Nephrology,270,12,254,E249
+208,Emergency,Discharged,7/17/2024,7/19/2024,Follow-Up Needed,2,Back pain,Mild,Normal,Physical therapy,Gabapentin,400mg,30 days,Orthopedics,244,3,334,B481
+209,Emergency,Open,7/27/2024,,,,Migraine,Mild,Inconclusive,Corticosteroid injection,Prednisone,90mcg,10 days,Neurology,288,11,376,E479
+210,Elective,Discharged,3/28/2024,4/5/2024,Follow-Up Needed,8,Kidney infection,Moderate,Abnormal,Corticosteroid injection,Metformin,400mg,14 days,Nephrology,297,6,468,B308
+211,Elective,Discharged,10/15/2024,10/20/2024,Transferred,5,Pneumonia,Moderate,Inconclusive,Wound care,Lisinopril,250mg,7 days,Pulmonology,328,12,505,E117
+212,Urgent,Open,3/30/2024,,,,Pneumonia,Moderate,Abnormal,Corticosteroid injection,Prednisone,250mg,7 days,Pulmonology,42,4,191,B324
+213,Urgent,Discharged,9/25/2024,10/2/2024,Improved,7,Kidney infection,Moderate,Inconclusive,Surgery,Amoxicillin,2000 IU,30 days,Nephrology,310,4,242,E423
+214,Urgent,Discharged,8/7/2024,8/11/2024,,4,Fractured bone,Moderate,Normal,Surgery,Prednisone,90mcg,Ongoing,Orthopedics,240,14,312,E402
+215,Urgent,Open,9/18/2024,9/30/2024,,12,COVID-19,Moderate,Normal,IV fluids,Paracetamol,2000 IU,Ongoing,Pulmonology,166,10,348,A135
+216,Urgent,Discharged,6/14/2024,6/16/2024,,2,Migraine,Mild,Normal,Pain management,Prednisone,10mg,Ongoing,Neurology,135,13,589,F436
+217,Urgent,Discharged,9/22/2024,9/28/2024,Stable,6,Kidney infection,Moderate,Normal,IV fluids,Gabapentin,500mcg,7 days,Nephrology,330,9,139,B463
+218,Urgent,Open,1/23/2024,2/5/2024,,13,COVID-19,Severe,Abnormal,Bronchodilator therapy,Ibuprofen,90mcg,14 days,Pulmonology,320,8,65,D423
+219,Elective,Open,2/21/2024,,,,Arthritis,Moderate,Abnormal,Surgery,Ibuprofen,10mg,14 days,Orthopedics,299,7,141,E389
+220,Urgent,Discharged,1/4/2024,1/6/2024,Transferred,2,Migraine,Mild,Abnormal,Pain management,Metformin,1000 IU,7 days,Neurology,276,12,550,D261
+221,Elective,Discharged,1/18/2024,1/19/2024,Stable,1,Back pain,Mild,Inconclusive,Blood pressure management,Metformin,1000 IU,10 days,Orthopedics,187,16,218,E489
+222,Emergency,Discharged,10/7/2024,10/12/2024,Stable,5,Kidney infection,Moderate,Abnormal,Wound care,Metformin,1000 IU,30 days,Nephrology,160,14,242,B138
+223,Urgent,Discharged,8/16/2024,8/18/2024,Stable,2,Bronchitis,Mild,Abnormal,Pain management,Lisinopril,400mg,7 days,Pulmonology,109,8,94,E258
+224,Elective,Discharged,8/20/2024,8/22/2024,Stable,2,Fever,Mild,Normal,Rest and fluids,Paracetamol,500mg,3 days,General Medicine,326,19,282,C161
+225,Urgent,Open,4/20/2024,,,,Diabetes mellitus,Moderate,Normal,Antibiotic course,Gabapentin,100mg,14 days,Endocrinology,71,9,327,A494
+226,Emergency,Open,8/24/2024,,,,Pneumonia,Moderate,Inconclusive,Blood pressure management,Aspirin,500mg,7 days,Pulmonology,304,15,366,C105
+227,Urgent,Discharged,2/25/2024,3/10/2024,Follow-Up Needed,14,COVID-19,Severe,Inconclusive,Blood pressure management,Prednisone,50mg,Ongoing,Pulmonology,284,4,541,F370
+228,Elective,Open,7/19/2024,,,,Arthritis,Moderate,Abnormal,Wound care,Paracetamol,1000 IU,7 days,Orthopedics,275,3,523,E284
+229,Urgent,Open,3/25/2024,,,,Diabetes mellitus,Moderate,Inconclusive,Antibiotic course,Albuterol,500mcg,Ongoing,Endocrinology,197,2,483,A210
+230,Urgent,Discharged,5/10/2024,5/17/2024,,7,Pneumonia,Moderate,Normal,Surgery,Amoxicillin,10mg,5 days,Pulmonology,88,11,104,D175
+231,Emergency,Discharged,8/17/2024,9/11/2024,Stable,25,COVID-19,Severe,Normal,Bronchodilator therapy,Ceftriaxone,50mg,7 days,Pulmonology,308,6,138,B400
+232,Elective,Open,8/29/2024,,,,Arthritis,Moderate,Abnormal,Corticosteroid injection,Paracetamol,2000 IU,5 days,Orthopedics,219,10,351,A218
+233,Urgent,Discharged,9/2/2024,9/3/2024,Stable,1,Bronchitis,Mild,Abnormal,Corticosteroid injection,Paracetamol,400mg,14 days,Pulmonology,154,18,267,F372
+234,Emergency,Discharged,9/9/2024,9/11/2024,Improved,2,Migraine,Mild,Abnormal,Pain management,Ceftriaxone,250mg,10 days,Neurology,267,17,326,C215
+235,Elective,Discharged,5/13/2024,5/20/2024,,7,Fractured bone,Moderate,Inconclusive,Antibiotic course,Aspirin,400mg,Ongoing,Orthopedics,323,8,372,B437
+236,Emergency,Discharged,2/28/2024,3/4/2024,,5,Pneumonia,Moderate,Normal,Pain management,Albuterol,400mg,10 days,Pulmonology,294,16,576,F270
+237,Emergency,Open,2/4/2024,,,,Back pain,Mild,Inconclusive,Wound care,Gabapentin,500mg,14 days,Orthopedics,145,1,524,A356
+238,Emergency,Open,5/14/2024,5/24/2024,,10,COVID-19,Severe,Inconclusive,IV fluids,Lisinopril,50mg,Ongoing,Pulmonology,122,9,480,A158
+239,Elective,Open,2/3/2024,,,,Migraine,Mild,Abnormal,Physical therapy,Prednisone,500mg,10 days,Neurology,276,12,206,C113
+240,Elective,Discharged,5/1/2024,5/2/2024,Stable,1,Migraine,Mild,Normal,Pain management,Ibuprofen,50mg,Ongoing,Neurology,201,1,159,F322
+241,Urgent,Discharged,9/15/2024,9/18/2024,,3,Fractured bone,Moderate,Normal,IV fluids,Amoxicillin,250mg,30 days,Orthopedics,275,3,56,C186
+242,Urgent,Discharged,3/8/2024,3/9/2024,Transferred,1,Bronchitis,Mild,Inconclusive,Blood pressure management,Ibuprofen,2000 IU,Ongoing,Pulmonology,305,12,534,F399
+243,Elective,Discharged,6/14/2024,6/16/2024,,2,Bronchitis,Mild,Normal,IV fluids,Amoxicillin,90mcg,14 days,Pulmonology,166,10,502,A129
+244,Emergency,Discharged,5/28/2024,5/29/2024,Transferred,1,Back pain,Mild,Abnormal,Blood pressure management,Albuterol,10mg,Ongoing,Orthopedics,134,1,393,D178
+245,Urgent,Open,6/30/2024,,,,Kidney infection,Moderate,Inconclusive,IV fluids,Paracetamol,250mg,14 days,Nephrology,83,11,362,D343
+246,Emergency,Open,7/26/2024,,,,Back pain,Mild,Abnormal,Blood pressure management,Ceftriaxone,90mcg,10 days,Orthopedics,13,4,293,C180
+247,Emergency,Discharged,4/22/2024,4/29/2024,Stable,7,Kidney infection,Moderate,Inconclusive,Physical therapy,Prednisone,2000 IU,Ongoing,Nephrology,259,11,314,E472
+248,Urgent,Open,10/18/2024,,,,Bronchitis,Mild,Abnormal,Wound care,Paracetamol,400mg,30 days,Pulmonology,329,11,240,E195
+249,Elective,Discharged,6/26/2024,7/3/2024,Stable,7,Pneumonia,Moderate,Inconclusive,Dialysis,Paracetamol,500mg,5 days,Pulmonology,216,9,279,B197
+250,Elective,Open,6/20/2024,,,,Fractured bone,Moderate,Normal,Blood pressure management,Metformin,50mg,7 days,Orthopedics,156,3,186,C289
+251,Elective,Open,7/7/2024,,,,Pneumonia,Moderate,Abnormal,Surgery,Metformin,90mcg,30 days,Pulmonology,23,12,203,F315
+252,Urgent,Discharged,5/27/2024,6/1/2024,,5,Fractured bone,Moderate,Inconclusive,Pain management,Paracetamol,50mg,5 days,Orthopedics,57,16,123,D346
+253,Elective,Open,2/11/2024,,,,Bronchitis,Mild,Normal,Blood pressure management,Gabapentin,250mg,30 days,Pulmonology,76,13,64,A255
+254,Elective,Discharged,1/10/2024,1/12/2024,Stable,2,Allergy,Mild,Normal,Prescribed antihistamines,Loratadine,70mg,3 days,General Medicine,163,13,366,C326
+255,Urgent,Discharged,4/26/2024,5/10/2024,Transferred,14,COVID-19,Severe,Abnormal,Surgery,Gabapentin,400mg,14 days,Pulmonology,188,1,385,F301
+256,Urgent,Open,3/9/2024,,,,Migraine,Mild,Normal,IV fluids,Paracetamol,500mcg,30 days,Neurology,157,9,19,E312
+257,Elective,Open,7/2/2024,,,,Migraine,Mild,Normal,IV fluids,Metformin,250mg,14 days,Neurology,245,2,494,E395
+258,Emergency,Open,1/14/2024,,,,Pneumonia,Moderate,Inconclusive,Dialysis,Metformin,250mg,5 days,Pulmonology,284,4,513,D496
+259,Elective,Discharged,1/18/2024,1/20/2024,Follow-Up Needed,2,Bronchitis,Mild,Inconclusive,Dialysis,Paracetamol,100mg,10 days,Pulmonology,109,8,162,B488
+260,Urgent,Discharged,10/15/2024,10/18/2024,Improved,3,Back pain,Mild,Abnormal,Corticosteroid injection,Amoxicillin,90mcg,7 days,Orthopedics,24,11,512,C295
+261,Urgent,Discharged,2/22/2024,2/28/2024,Transferred,6,Arthritis,Moderate,Abnormal,Bronchodilator therapy,Aspirin,90mcg,7 days,Orthopedics,240,14,49,B392
+262,Elective,Discharged,1/10/2024,1/12/2024,Stable,2,Mild allergic reaction,Mild,Normal,Prescribed antihistamines,Loratadine,10mg,3 days,General Medicine,9,4,527,A288
+263,Emergency,Discharged,4/26/2024,5/2/2024,Transferred,6,Hypertension,Moderate,Normal,Antibiotic course,Ceftriaxone,1000 IU,10 days,Cardiology,103,16,452,D145
+264,Elective,Discharged,7/24/2024,8/22/2024,,29,COVID-19,Severe,Normal,Dialysis,Ceftriaxone,50mg,Ongoing,Pulmonology,289,5,90,A487
+265,Urgent,Open,9/12/2024,,,,Fractured bone,Moderate,Inconclusive,Dialysis,Ibuprofen,400mg,10 days,Orthopedics,301,19,461,E403
+266,Urgent,Discharged,1/26/2024,2/2/2024,Stable,7,Fractured bone,Moderate,Abnormal,Wound care,Gabapentin,250mg,14 days,Orthopedics,275,3,326,C487
+267,Urgent,Discharged,2/11/2024,2/18/2024,,7,Pneumonia,Moderate,Normal,Antibiotic course,Amoxicillin,100mg,30 days,Pulmonology,320,8,91,B470
+268,Elective,Open,2/23/2024,,,,Migraine,Mild,Inconclusive,Physical therapy,Albuterol,2000 IU,7 days,Neurology,146,18,310,A427
+269,Elective,Discharged,10/4/2024,12/2/2024,Improved,59,Flu,Moderate,Abnormal,Rest,Paracetamol,500mg,5 days,General Medicine,119,13,453,B103
+270,Elective,Open,2/12/2024,,,,Pneumonia,Moderate,Normal,Bronchodilator therapy,Ceftriaxone,90mcg,14 days,Pulmonology,56,11,83,F462
+271,Urgent,Discharged,8/14/2024,8/17/2024,Stable,3,Back pain,Mild,Abnormal,Antibiotic course,Albuterol,2000 IU,Ongoing,Orthopedics,145,1,403,E488
+272,Urgent,Discharged,10/17/2024,10/22/2024,Follow-Up Needed,5,Hypertension,Moderate,Inconclusive,Pain management,Gabapentin,1000 IU,Ongoing,Cardiology,125,2,221,B255
+273,Urgent,Discharged,9/22/2024,12/1/2024,,70,Diabetes mellitus,Moderate,Inconclusive,Blood pressure management,Lisinopril,1000 IU,30 days,Endocrinology,87,17,148,E188
+274,Elective,Discharged,4/26/2024,5/4/2024,Transferred,8,Pneumonia,Moderate,Inconclusive,Corticosteroid injection,Ceftriaxone,1000 IU,30 days,Pulmonology,265,7,4,F489
+275,Elective,Discharged,2/15/2024,2/28/2024,,13,Flu,Moderate,Abnormal,Bed rest and antiviral medication,Oseltamivir,75mg,5 days,General Medicine,141,14,267,E150
+276,Elective,Discharged,6/2/2024,6/9/2024,,7,Hypertension,Moderate,Inconclusive,Dialysis,Aspirin,1000 IU,10 days,Cardiology,92,1,29,D253
+277,Urgent,Discharged,3/28/2024,4/8/2024,,11,COVID-19,Severe,Inconclusive,Blood pressure management,Ibuprofen,90mcg,14 days,Pulmonology,321,3,135,F389
+278,Elective,Discharged,2/4/2024,2/7/2024,Follow-Up Needed,3,Bronchitis,Mild,Inconclusive,Blood pressure management,Amoxicillin,100mg,5 days,Pulmonology,296,2,11,E290
+279,Emergency,Open,8/29/2024,,,,Hypertension,Moderate,Abnormal,Physical therapy,Prednisone,90mcg,10 days,Cardiology,220,4,89,E196
+280,Urgent,Discharged,3/13/2024,3/20/2024,Stable,7,Fractured bone,Moderate,Abnormal,Corticosteroid injection,Prednisone,250mg,7 days,Orthopedics,112,9,463,F135
+281,Urgent,Discharged,2/19/2024,2/29/2024,Stable,10,Pneumonia,Moderate,Abnormal,Chemotherapy,Gabapentin,90mcg,10 days,Pulmonology,284,4,24,B455
+282,Elective,Open,5/23/2024,5/31/2024,,8,Heart failure,Severe,Inconclusive,Corticosteroid injection,Hydrochlorothiazide,90mcg,5 days,Cardiology,147,1,41,B111
+283,Urgent,Discharged,8/7/2024,8/10/2024,,3,Diabetes mellitus,Moderate,Normal,Radiation therapy,Albuterol,500mcg,5 days,Endocrinology,120,8,440,D368
+284,Elective,Open,8/24/2024,,,,Bronchitis,Mild,Abnormal,Bronchodilator therapy,Aspirin,500mg,5 days,Pulmonology,242,10,27,E211
+285,Urgent,Discharged,7/26/2024,7/27/2024,,1,Migraine,Mild,Abnormal,Physical therapy,Prednisone,1000 IU,10 days,Neurology,47,4,75,A227
+286,Urgent,Discharged,2/28/2024,3/4/2024,,5,Mental health disorder,Unclassified,Inconclusive,Dialysis,Ibuprofen,500mcg,7 days,Psychiatry,129,5,297,A263
+287,Elective,Open,6/22/2024,,,,Back pain,Mild,Normal,IV fluids,Prednisone,1000 IU,10 days,Orthopedics,311,1,328,B405
+288,Urgent,Discharged,1/17/2024,1/27/2024,Stable,10,COVID-19,Severe,Abnormal,Dialysis,Ibuprofen,10mg,5 days,Pulmonology,42,4,313,F360
+289,Urgent,Discharged,3/17/2024,3/27/2024,Transferred,10,Cancer,Severe,Abnormal,Dialysis,Aspirin,100mg,14 days,Oncology,84,6,178,C433
+290,Emergency,Open,2/15/2024,,,,Flu,Moderate,Abnormal,Antiviral therapy,Oseltamivir,70mg,5 days,General Medicine,86,18,2,D427
+291,Urgent,Discharged,2/24/2024,2/24/2024,,0,Mental health disorder,Unclassified,Normal,Chemotherapy,Ibuprofen,90mcg,14 days,Psychiatry,63,1,137,B144
+292,Emergency,Discharged,7/21/2024,7/23/2024,,2,Migraine,Mild,Normal,Wound care,Methotrexate,400mg,14 days,Neurology,25,7,126,E340
+293,Emergency,Discharged,5/26/2024,5/31/2024,,5,Lung infection,Severe,Normal,IV fluids,Oxycodone,250mg,30 days,Pulmonology,132,8,76,E307
+294,Elective,Discharged,6/20/2024,7/15/2024,,25,Heart failure,Severe,Normal,Wound care,Metformin,1000 IU,14 days,Cardiology,191,8,469,D168
+295,Urgent,Discharged,7/24/2024,7/24/2024,Stable,0,Mental health disorder,Unclassified,Inconclusive,Surgery,Oxycodone,2000 IU,7 days,Psychiatry,272,12,197,B153
+296,Elective,Discharged,8/15/2024,8/16/2024,,1,Migraine,Mild,Inconclusive,Radiation therapy,Albuterol,50mg,Ongoing,Neurology,263,6,485,A208
+297,Elective,Open,1/9/2024,,,,Arthritis,Moderate,Inconclusive,Corticosteroid injection,Ceftriaxone,2000 IU,Ongoing,Orthopedics,90,12,129,C288
+298,Elective,Discharged,2/17/2024,2/27/2024,Improved,10,Stroke,Severe,Inconclusive,Dialysis,Ceftriaxone,500mcg,7 days,Neurology,157,9,423,F403
+299,Emergency,Open,4/18/2024,,,,Mental health disorder,Unclassified,Normal,Radiation therapy,Methotrexate,2000 IU,7 days,Psychiatry,184,6,117,C321
+300,Emergency,Discharged,1/30/2024,2/4/2024,Transferred,5,Kidney infection,Moderate,Inconclusive,Bronchodilator therapy,Oxycodone,1000 IU,30 days,Nephrology,248,12,368,B394
+301,Urgent,Open,1/6/2024,,,,Fractured bone,Moderate,Abnormal,IV fluids,Citalopram,400mg,30 days,Orthopedics,208,15,123,C223
+302,Elective,Discharged,8/19/2024,8/28/2024,Transferred,9,Pneumonia,Moderate,Abnormal,Chemotherapy,Gabapentin,100mg,14 days,Pulmonology,316,17,110,C265
+303,Elective,Discharged,5/29/2024,6/1/2024,Transferred,3,Arthritis,Moderate,Inconclusive,Radiation therapy,Aspirin,500mcg,14 days,Orthopedics,68,1,332,A430
+304,Emergency,Open,4/28/2024,5/27/2024,,29,COVID-19,Severe,Normal,IV fluids,Citalopram,50mg,7 days,Pulmonology,132,8,125,A236
+305,Elective,Discharged,6/24/2024,7/16/2024,,22,Lung infection,Severe,Abnormal,Dialysis,Gabapentin,500mg,Ongoing,Pulmonology,54,19,270,D354
+306,Elective,Open,9/18/2024,10/24/2024,,36,Cancer,Severe,Normal,Dialysis,Amoxicillin,500mg,5 days,Oncology,307,8,306,E335
+307,Emergency,Discharged,8/11/2024,8/31/2024,,20,Stroke,Severe,Inconclusive,Physical therapy,Lisinopril,500mcg,30 days,Neurology,11,10,607,B258
+308,Elective,Discharged,4/5/2024,4/20/2024,Transferred,15,Heart failure,Severe,Normal,Chemotherapy,Gabapentin,10mg,5 days,Cardiology,282,14,61,E325
+309,Emergency,Discharged,4/28/2024,5/2/2024,Transferred,4,Arthritis,Moderate,Abnormal,Physical therapy,Metformin,100mg,10 days,Orthopedics,189,14,292,A312
+310,Urgent,Open,9/6/2024,,,,Pneumonia,Moderate,Abnormal,IV fluids,Gabapentin,50mg,14 days,Pulmonology,23,12,552,F204
+311,Emergency,Discharged,6/2/2024,6/3/2024,Transferred,1,Hypertension,Moderate,Inconclusive,IV fluids,Citalopram,500mcg,7 days,Cardiology,191,8,404,A429
+312,Urgent,Discharged,6/13/2024,6/16/2024,Follow-Up Needed,3,Back pain,Mild,Inconclusive,IV fluids,Ibuprofen,10mg,Ongoing,Orthopedics,46,2,100,B344
+313,Elective,Open,9/10/2024,,,,Kidney infection,Moderate,Abnormal,Corticosteroid injection,Hydrochlorothiazide,1000 IU,14 days,Nephrology,28,10,611,C109
+314,Urgent,Open,2/7/2024,,,,Bronchitis,Mild,Normal,Surgery,Oxycodone,1000 IU,5 days,Pulmonology,54,19,594,D184
+315,Elective,Discharged,4/15/2024,4/25/2024,Transferred,10,Cancer,Severe,Abnormal,Bronchodilator therapy,Citalopram,90mcg,Ongoing,Oncology,249,5,69,E107
+316,Emergency,Discharged,3/10/2024,3/29/2024,Improved,19,COVID-19,Severe,Abnormal,Chemotherapy,Hydrochlorothiazide,100mg,Ongoing,Pulmonology,185,2,383,F326
+317,Urgent,Discharged,3/20/2024,3/22/2024,Stable,2,Seasonal allergy,Mild,Normal,Prescribed antihistamines,Cetirizine,10mg,30 days,General Medicine,207,10,541,E245
+318,Elective,Open,3/4/2024,3/14/2024,,10,COVID-19,Severe,Normal,Antibiotic course,Albuterol,1000 IU,Ongoing,Pulmonology,309,3,480,D340
+319,Urgent,Open,5/27/2024,,,,Hypertension,Moderate,Abnormal,Surgery,Gabapentin,500mcg,7 days,Cardiology,298,12,434,F246
+320,Elective,Discharged,2/23/2024,3/4/2024,Stable,10,Kidney infection,Moderate,Normal,Pain management,Amoxicillin,500mcg,14 days,Nephrology,182,8,54,A146
+321,Elective,Discharged,3/7/2024,3/14/2024,Follow-Up Needed,7,Pneumonia,Moderate,Normal,Bronchodilator therapy,Oxycodone,100mg,Ongoing,Pulmonology,121,17,580,F164
+322,Emergency,Discharged,5/12/2024,5/15/2024,Stable,3,Gastrointenstinal discomfort,Mild,Normal,Proton Pump Inhibitors,Omeprazole,20mg,7 days,General Medicine,290,9,387,F119
+323,Emergency,Open,2/9/2024,2/19/2024,,10,Lung infection,Severe,Inconclusive,Bronchodilator therapy,Paracetamol,100mg,30 days,Pulmonology,155,19,407,A137
+324,Urgent,Discharged,4/13/2024,4/17/2024,Stable,4,Arthritis,Moderate,Abnormal,Corticosteroid injection,Hydrochlorothiazide,500mcg,Ongoing,Orthopedics,241,11,576,E394
+325,Urgent,Open,8/22/2024,,,,Diabetes mellitus,Moderate,Inconclusive,Surgery,Prednisone,500mg,10 days,Endocrinology,258,5,262,D411
+326,Emergency,Discharged,6/3/2024,6/5/2024,Improved,2,Diabetes mellitus,Moderate,Normal,Physical therapy,Oxycodone,90mcg,14 days,Endocrinology,5,5,13,B202
+327,Elective,Discharged,3/24/2024,3/25/2024,Stable,1,Migraine,Mild,Inconclusive,Wound care,Prednisone,500mcg,Ongoing,Neurology,55,18,256,F473
+328,Emergency,Open,6/9/2024,,,,Arthritis,Moderate,Inconclusive,Bronchodilator therapy,Amoxicillin,100mg,30 days,Orthopedics,211,14,563,F472
+329,Emergency,Discharged,8/30/2024,9/3/2024,Transferred,4,Mental health disorder,Unclassified,Inconclusive,Antibiotic course,Albuterol,250mg,7 days,Psychiatry,239,10,217,D203
+330,Emergency,Discharged,1/24/2024,1/28/2024,Improved,4,Fractured bone,Moderate,Inconclusive,Antibiotic course,Albuterol,400mg,14 days,Orthopedics,178,17,109,B174
+331,Urgent,Discharged,1/11/2024,1/12/2024,Transferred,1,Migraine,Mild,Inconclusive,Wound care,Methotrexate,90mcg,Ongoing,Neurology,153,8,535,A347
+332,Urgent,Discharged,9/10/2024,9/16/2024,,6,Kidney infection,Moderate,Abnormal,Chemotherapy,Paracetamol,50mg,5 days,Nephrology,39,7,354,B300
+333,Elective,Discharged,9/23/2024,9/23/2024,Follow-Up Needed,0,Fractured bone,Moderate,Inconclusive,Radiation therapy,Amoxicillin,10mg,30 days,Orthopedics,311,1,482,D480
+334,Elective,Open,5/18/2024,,,,Hypertension,Moderate,Abnormal,IV fluids,Citalopram,400mg,7 days,Cardiology,136,4,303,B379
+335,Elective,Discharged,2/6/2024,2/6/2024,Stable,0,Pneumonia,Moderate,Abnormal,Radiation therapy,Prednisone,400mg,7 days,Pulmonology,144,3,271,B122
+336,Urgent,Open,7/5/2024,,,,Migraine,Mild,Abnormal,Corticosteroid injection,Oxycodone,1000 IU,10 days,Neurology,276,12,443,A185
+337,Urgent,Discharged,5/3/2024,5/13/2024,Improved,10,Kidney infection,Moderate,Inconclusive,Wound care,Citalopram,1000 IU,5 days,Nephrology,215,13,188,C107
+338,Elective,Discharged,9/20/2024,9/21/2024,,1,Back pain,Mild,Normal,Dialysis,Gabapentin,1000 IU,10 days,Orthopedics,200,11,531,B387
+339,Elective,Open,7/29/2024,,,,Diabetes mellitus,Moderate,Normal,Pain management,Paracetamol,50mg,30 days,Endocrinology,315,15,96,E404
+340,Elective,Open,9/5/2024,,,,Migraine,Mild,Abnormal,Corticosteroid injection,Metformin,1000 IU,30 days,Neurology,80,3,388,D315
+341,Elective,Discharged,3/8/2024,3/18/2024,Follow-Up Needed,10,Stroke,Severe,Normal,Blood pressure management,Oxycodone,400mg,Ongoing,Neurology,267,17,394,A183
+342,Emergency,Open,10/19/2024,,,,Diabetes mellitus,Moderate,Abnormal,IV fluids,Oxycodone,500mg,14 days,Endocrinology,252,5,149,B140
+343,Elective,Discharged,1/7/2024,1/17/2024,Follow-Up Needed,10,Lung infection,Severe,Normal,Dialysis,Paracetamol,400mg,10 days,Pulmonology,77,5,412,D151
+344,Emergency,Open,7/31/2024,,,,Hypertension,Moderate,Abnormal,Radiation therapy,Albuterol,10mg,Ongoing,Cardiology,274,17,301,D434
+345,Elective,Discharged,1/12/2024,1/22/2024,Stable,10,Cancer,Severe,Abnormal,Bronchodilator therapy,Paracetamol,90mcg,30 days,Oncology,194,7,621,C472
+346,Urgent,Discharged,4/18/2024,4/28/2024,Transferred,10,Stroke,Severe,Inconclusive,Dialysis,Metformin,500mg,10 days,Neurology,165,3,286,E282
+347,Emergency,Open,10/19/2024,,,,Migraine,Mild,Abnormal,Blood pressure management,Methotrexate,500mg,5 days,Neurology,69,2,316,E123
+348,Emergency,Open,5/19/2024,,,,Fractured bone,Moderate,Abnormal,Chemotherapy,Citalopram,250mg,7 days,Orthopedics,301,19,260,A182
+349,Urgent,Discharged,6/1/2024,6/23/2024,Transferred,22,Stroke,Severe,Abnormal,IV fluids,Methotrexate,500mcg,5 days,Neurology,14,17,236,C489
+350,Emergency,Open,4/24/2024,,,,Bronchitis,Mild,Inconclusive,Physical therapy,Oxycodone,1000 IU,14 days,Pulmonology,67,18,484,E213
+351,Urgent,Discharged,1/18/2024,1/20/2024,Improved,2,Vaccination,Unclassified,Normal,Vaccinec,None,0mg,0 days,General Medicine,31,11,378,C388
+352,Elective,Open,9/29/2024,,,,Back pain,Mild,Abnormal,Pain management,Clonazepam,2000 IU,Ongoing,Orthopedics,255,5,12,A149
+353,Elective,Discharged,3/23/2024,3/31/2024,,8,Heart failure,Severe,Abnormal,Bronchodilator therapy,Paracetamol,2000 IU,5 days,Cardiology,37,1,421,A334
+354,Elective,Discharged,5/22/2024,5/24/2024,Follow-Up Needed,2,Back pain,Mild,Normal,Radiation therapy,Amoxicillin,400mg,30 days,Orthopedics,123,10,606,E454
+355,Urgent,Discharged,7/10/2024,7/18/2024,,8,Pneumonia,Moderate,Inconclusive,IV fluids,Ceftriaxone,500mcg,7 days,Pulmonology,329,11,194,B261
+356,Elective,Discharged,3/22/2024,3/22/2024,Follow-Up Needed,0,Bronchitis,Mild,Abnormal,Pain management,Gabapentin,500mcg,7 days,Pulmonology,89,8,394,E453
+357,Emergency,Discharged,9/14/2024,9/21/2024,,7,Arthritis,Moderate,Inconclusive,Wound care,Citalopram,90mcg,7 days,Orthopedics,178,17,99,A111
+358,Urgent,Open,4/21/2024,,,,Kidney infection,Moderate,Abnormal,Dialysis,Oxycodone,100mg,30 days,Nephrology,94,1,464,A351
+359,Elective,Discharged,4/22/2024,4/26/2024,Stable,4,Diabetes mellitus,Moderate,Inconclusive,Chemotherapy,Albuterol,100mg,14 days,Endocrinology,214,15,419,F317
+360,Elective,Discharged,8/19/2024,8/19/2024,Improved,0,Bronchitis,Mild,Inconclusive,Corticosteroid injection,Methotrexate,100mg,5 days,Pulmonology,308,6,501,E495
+361,Urgent,Discharged,1/15/2024,1/21/2024,,6,Arthritis,Moderate,Abnormal,Radiation therapy,Ibuprofen,500mg,5 days,Orthopedics,167,16,72,B342
+362,Emergency,Discharged,3/22/2024,3/22/2024,Follow-Up Needed,0,Bronchitis,Mild,Abnormal,Physical therapy,Lisinopril,1000 IU,Ongoing,Pulmonology,198,13,587,F465
+363,Elective,Open,1/23/2024,,,,Fractured bone,Moderate,Abnormal,Chemotherapy,Amoxicillin,2000 IU,7 days,Orthopedics,79,8,3,F199
+364,Urgent,Open,5/5/2024,,,,Hypertension,Moderate,Abnormal,Surgery,Oxycodone,1000 IU,30 days,Cardiology,246,8,622,C299
+365,Emergency,Open,1/12/2024,2/11/2024,,30,COVID-19,Severe,Abnormal,Physical therapy,Citalopram,500mg,7 days,Pulmonology,109,8,153,B426
+366,Urgent,Open,4/5/2024,,,,Mental health disorder,Unclassified,Abnormal,Bronchodilator therapy,Albuterol,90mcg,10 days,Psychiatry,173,8,633,E183
+367,Urgent,Discharged,4/26/2024,5/6/2024,,10,COVID-19,Severe,Normal,Radiation therapy,Prednisone,500mcg,Ongoing,Pulmonology,231,14,545,C236
+368,Elective,Open,7/28/2024,,,,Diabetes mellitus,Moderate,Abnormal,Radiation therapy,Ibuprofen,90mcg,Ongoing,Endocrinology,203,8,308,E108
+369,Elective,Open,5/30/2024,,,,Back pain,Mild,Normal,Physical therapy,Albuterol,400mg,10 days,Orthopedics,255,5,6,B367
+370,Emergency,Discharged,6/19/2024,7/7/2024,Transferred,18,COVID-19,Severe,Inconclusive,Physical therapy,Lisinopril,1000 IU,Ongoing,Pulmonology,317,5,370,E446
+371,Elective,Open,1/24/2024,2/13/2024,,20,Lung infection,Severe,Inconclusive,Bronchodilator therapy,Gabapentin,500mcg,10 days,Pulmonology,67,18,416,A350
+372,Emergency,Discharged,3/22/2024,3/31/2024,,9,Pneumonia,Moderate,Abnormal,Dialysis,Lisinopril,400mg,30 days,Pulmonology,329,11,10,A310
+373,Emergency,Open,8/21/2024,,,,Bronchitis,Mild,Normal,Physical therapy,Clonazepam,90mcg,10 days,Pulmonology,154,18,358,A428
+374,Urgent,Discharged,7/5/2024,7/6/2024,,1,Migraine,Mild,Abnormal,Corticosteroid injection,Clonazepam,2000 IU,30 days,Neurology,165,3,631,E413
+375,Elective,Discharged,7/28/2024,8/7/2024,Follow-Up Needed,10,Pneumonia,Moderate,Inconclusive,IV fluids,Lisinopril,1000 IU,7 days,Pulmonology,289,5,305,E144
+376,Urgent,Open,10/1/2024,,,,Diabetes mellitus,Moderate,Inconclusive,Physical therapy,Albuterol,500mcg,14 days,Endocrinology,148,16,511,E175
+377,Emergency,Discharged,2/3/2024,2/8/2024,Improved,5,Hypertension,Moderate,Normal,Surgery,Citalopram,500mcg,14 days,Cardiology,213,17,500,E497
+378,Urgent,Open,4/8/2024,,,,Diabetes mellitus,Moderate,Inconclusive,Surgery,Paracetamol,90mcg,7 days,Endocrinology,115,17,169,C372
+379,Elective,Open,9/18/2024,,,,Bronchitis,Mild,Normal,IV fluids,Amoxicillin,10mg,30 days,Pulmonology,34,5,625,C493
+380,Urgent,Discharged,1/6/2024,1/16/2024,,10,COVID-19,Severe,Inconclusive,Surgery,Metformin,100mg,Ongoing,Pulmonology,284,4,416,F327
+381,Emergency,Open,1/26/2024,,,,Mental health disorder,Unclassified,Inconclusive,Chemotherapy,Clonazepam,250mg,30 days,Psychiatry,30,18,426,F457
+382,Emergency,Open,2/29/2024,,,,Mental health disorder,Unclassified,Abnormal,Corticosteroid injection,Ceftriaxone,50mg,7 days,Psychiatry,261,18,397,F415
+383,Urgent,Discharged,5/6/2024,5/16/2024,Improved,10,Stroke,Severe,Normal,Wound care,Ibuprofen,500mg,Ongoing,Cardiology,48,6,59,B381
+384,Elective,Discharged,5/7/2024,5/13/2024,,6,Kidney infection,Moderate,Abnormal,Bronchodilator therapy,Ibuprofen,90mcg,14 days,Nephrology,175,4,447,E278
+385,Elective,Discharged,1/2/2024,1/21/2024,Stable,19,Lung infection,Severe,Normal,Chemotherapy,Metformin,100mg,5 days,Pulmonology,243,19,181,E371
+386,Elective,Discharged,2/4/2024,2/10/2024,,6,Pneumonia,Moderate,Abnormal,Blood pressure management,Metformin,500mcg,7 days,Pulmonology,309,3,231,A190
+387,Urgent,Discharged,1/23/2024,1/27/2024,Follow-Up Needed,4,Arthritis,Moderate,Abnormal,Radiation therapy,Metformin,400mg,14 days,Orthopedics,241,11,327,D207
+388,Emergency,Discharged,9/3/2024,9/12/2024,Improved,9,Pneumonia,Moderate,Normal,Pain management,Amoxicillin,1000 IU,14 days,Pulmonology,133,19,34,A271
+389,Emergency,Discharged,1/11/2024,1/14/2024,Stable,3,Fractured bone,Moderate,Abnormal,Blood pressure management,Lisinopril,1000 IU,Ongoing,Orthopedics,219,10,554,E199
+390,Urgent,Discharged,8/17/2024,8/21/2024,Transferred,4,Arthritis,Moderate,Abnormal,Physical therapy,Aspirin,90mcg,Ongoing,Orthopedics,44,6,273,D292
+391,Emergency,Open,8/4/2024,,,,Mental health disorder,Unclassified,Normal,Antibiotic course,Methotrexate,100mg,Ongoing,Psychiatry,195,2,222,F469
+392,Elective,Discharged,3/22/2024,4/1/2024,Follow-Up Needed,10,COVID-19,Severe,Normal,Dialysis,Citalopram,1000 IU,14 days,Pulmonology,304,15,562,C181
+393,Elective,Open,5/9/2024,,,,Diabetes mellitus,Moderate,Abnormal,Physical therapy,Hydrochlorothiazide,2000 IU,7 days,Endocrinology,60,7,48,F411
+394,Elective,Open,2/9/2024,2/19/2024,,10,Lung infection,Severe,Abnormal,Bronchodilator therapy,Metformin,250mg,30 days,Pulmonology,281,7,375,A278
+395,Elective,Open,1/7/2024,,,,Diabetes mellitus,Moderate,Inconclusive,Pain management,Albuterol,250mg,7 days,Endocrinology,87,17,529,E347
+396,Urgent,Discharged,4/3/2024,4/15/2024,Follow-Up Needed,12,Heart failure,Severe,Normal,Dialysis,Ibuprofen,90mcg,Ongoing,Cardiology,147,1,321,E118
+397,Urgent,Open,6/8/2024,6/27/2024,,19,Cancer,Severe,Inconclusive,Corticosteroid injection,Amoxicillin,90mcg,5 days,Oncology,73,19,226,B163
+398,Emergency,Discharged,8/23/2024,8/23/2024,Stable,0,Migraine,Mild,Inconclusive,IV fluids,Aspirin,250mg,7 days,Neurology,47,4,515,D415
+399,Emergency,Open,5/28/2024,,,,Arthritis,Moderate,Normal,Surgery,Methotrexate,50mg,10 days,Orthopedics,13,4,211,D103
+400,Emergency,Discharged,7/12/2024,7/20/2024,Transferred,8,Mental health disorder,Unclassified,Abnormal,Bronchodilator therapy,Ibuprofen,400mg,Ongoing,Psychiatry,162,7,408,E205
+401,Elective,Open,9/12/2024,10/1/2024,,19,Cancer,Severe,Inconclusive,Bronchodilator therapy,Metformin,500mg,7 days,Oncology,260,7,458,E111
+402,Emergency,Open,2/5/2024,,,,Back pain,Mild,Abnormal,IV fluids,Lisinopril,10mg,5 days,Orthopedics,299,7,220,E387
+403,Elective,Discharged,8/1/2024,8/8/2024,,7,Mental health disorder,Unclassified,Inconclusive,Dialysis,Ibuprofen,250mg,7 days,Psychiatry,151,11,546,A436
+404,Urgent,Discharged,2/18/2024,2/19/2024,Stable,1,Mild allergic reaction,Mild,Normal,Prescribed antihistamines,Loratadine,10mg,5 days,General Medicine,196,5,393,B223
+405,Emergency,Discharged,3/24/2024,4/19/2024,,26,Diabetes mellitus,Moderate,Abnormal,Surgery,Oxycodone,500mg,Ongoing,Endocrinology,148,16,602,E250
+406,Urgent,Open,6/14/2024,,,,Fractured bone,Moderate,Normal,Chemotherapy,Clonazepam,10mg,30 days,Orthopedics,57,16,586,F483
+407,Urgent,Open,1/25/2024,,,,Back pain,Mild,Inconclusive,Surgery,Paracetamol,400mg,30 days,Orthopedics,266,6,471,C226
+408,Elective,Discharged,4/5/2024,4/7/2024,Improved,2,Common cold,Mild,Normal,Bed rest and fluids,None,0mg,0 days,General Medicine,20,8,525,C246
+409,Elective,Discharged,2/20/2024,2/20/2024,Transferred,0,Diabetes mellitus,Moderate,Inconclusive,Surgery,Hydrochlorothiazide,500mg,30 days,Endocrinology,16,11,468,B295
+410,Emergency,Open,2/22/2024,,,,Arthritis,Moderate,Inconclusive,Pain management,Ibuprofen,500mcg,10 days,Orthopedics,134,1,498,F252
+411,Emergency,Discharged,3/24/2024,3/26/2024,Stable,2,Migraine,Mild,Abnormal,Physical therapy,Hydrochlorothiazide,100mg,14 days,Neurology,223,15,328,E127
+412,Elective,Open,2/6/2024,,,,Hypertension,Moderate,Abnormal,Chemotherapy,Clonazepam,90mcg,Ongoing,Cardiology,220,4,26,B326
+413,Emergency,Open,7/23/2024,,,,Back pain,Mild,Normal,Bronchodilator therapy,Oxycodone,250mg,Ongoing,Orthopedics,211,14,113,B420
+414,Elective,Open,4/6/2024,,,,Migraine,Mild,Normal,Corticosteroid injection,Prednisone,100mg,14 days,Neurology,55,18,240,B371
+415,Emergency,Discharged,3/2/2024,3/4/2024,Stable,2,Migraine,Mild,Inconclusive,Corticosteroid injection,Paracetamol,400mg,7 days,Neurology,58,12,116,B328
+416,Emergency,Discharged,6/9/2024,6/10/2024,,1,Bronchitis,Mild,Inconclusive,Physical therapy,Lisinopril,250mg,7 days,Pulmonology,188,1,412,F172
+417,Elective,Discharged,8/22/2024,9/14/2024,Follow-Up Needed,23,Lung infection,Severe,Abnormal,Wound care,Citalopram,500mg,14 days,Pulmonology,304,15,580,D436
+418,Urgent,Discharged,1/26/2024,2/2/2024,Follow-Up Needed,7,Pneumonia,Moderate,Normal,Wound care,Ceftriaxone,500mg,14 days,Pulmonology,221,4,474,A349
+419,Elective,Open,4/26/2024,,,,Fractured bone,Moderate,Inconclusive,Chemotherapy,Oxycodone,500mg,14 days,Orthopedics,287,19,239,A371
+420,Emergency,Open,3/15/2024,,,,Diabetes mellitus,Moderate,Abnormal,IV fluids,Prednisone,250mg,30 days,Endocrinology,303,1,591,B168
+421,Urgent,Open,5/23/2024,,,,Migraine,Mild,Normal,Surgery,Metformin,90mcg,14 days,Neurology,113,5,157,E128
+422,Emergency,Discharged,3/29/2024,4/6/2024,Stable,8,Hypertension,Moderate,Normal,Chemotherapy,Hydrochlorothiazide,500mcg,7 days,Cardiology,306,2,329,E133
+423,Emergency,Discharged,2/1/2024,2/17/2024,Stable,16,Lung infection,Severe,Abnormal,Chemotherapy,Gabapentin,500mg,10 days,Pulmonology,144,3,59,B175
+424,Elective,Open,4/17/2024,,,,Mental health disorder,Unclassified,Normal,Antibiotic course,Ibuprofen,100mg,14 days,Psychiatry,118,13,237,A168
+425,Urgent,Discharged,6/21/2024,6/26/2024,Follow-Up Needed,5,Hypertension,Moderate,Inconclusive,IV fluids,Albuterol,100mg,14 days,Cardiology,286,10,427,F425
+426,Elective,Open,4/15/2024,,,,Bronchitis,Mild,Normal,Radiation therapy,Paracetamol,500mg,7 days,Pulmonology,232,9,451,B262
+427,Emergency,Discharged,3/3/2024,3/13/2024,Transferred,10,Cancer,Severe,Abnormal,Physical therapy,Ceftriaxone,100mg,7 days,Oncology,18,17,346,D375
+428,Elective,Discharged,5/14/2024,5/24/2024,Transferred,10,Lung infection,Severe,Inconclusive,Wound care,Metformin,400mg,Ongoing,Pulmonology,132,8,172,D289
+429,Emergency,Open,9/12/2024,,,,Diabetes mellitus,Moderate,Abnormal,IV fluids,Ceftriaxone,100mg,7 days,Endocrinology,49,17,520,C346
+430,Urgent,Open,6/4/2024,,,,Migraine,Mild,Normal,IV fluids,Ceftriaxone,500mcg,Ongoing,Neurology,168,2,156,F291
+431,Emergency,Discharged,2/28/2024,3/7/2024,Transferred,8,Hypertension,Moderate,Inconclusive,IV fluids,Citalopram,2000 IU,30 days,Cardiology,176,5,229,A177
+432,Emergency,Discharged,2/3/2024,2/3/2024,Follow-Up Needed,0,Hypertension,Moderate,Normal,Pain management,Oxycodone,90mcg,30 days,Cardiology,92,1,571,A157
+433,Elective,Discharged,9/26/2024,9/27/2024,,1,Bronchitis,Mild,Abnormal,Surgery,Ceftriaxone,400mg,10 days,Pulmonology,98,1,277,D483
+434,Urgent,Discharged,6/28/2024,8/4/2024,Improved,37,Heart failure,Severe,Abnormal,Chemotherapy,Albuterol,50mg,14 days,Cardiology,220,4,361,F198
+435,Emergency,Discharged,5/23/2024,5/30/2024,Follow-Up Needed,7,Pneumonia,Moderate,Inconclusive,Wound care,Gabapentin,10mg,Ongoing,Pulmonology,166,10,238,B151
+436,Emergency,Discharged,9/1/2024,9/30/2024,,29,Stroke,Severe,Abnormal,Corticosteroid injection,Metformin,250mg,5 days,Neurology,124,3,566,B183
+437,Urgent,Discharged,4/13/2024,4/15/2024,Stable,2,Migraine,Mild,Inconclusive,Surgery,Metformin,50mg,5 days,Neurology,245,2,497,F297
+438,Elective,Discharged,4/8/2024,4/9/2024,Improved,1,Routine health screening,Unclassified,Normal,"Routine checkup, blood tests",None,0mg,0 days,General Medicine,130,17,390,C242
+439,Elective,Discharged,2/9/2024,2/19/2024,Transferred,10,Lung infection,Severe,Inconclusive,Blood pressure management,Prednisone,10mg,14 days,Pulmonology,45,2,275,C197
+440,Elective,Open,5/29/2024,,,,Fractured bone,Moderate,Abnormal,Antibiotic course,Hydrochlorothiazide,10mg,7 days,Orthopedics,233,16,209,A235
+441,Emergency,Open,3/1/2024,,,,Kidney infection,Moderate,Abnormal,Surgery,Metformin,50mg,7 days,Nephrology,99,17,420,E441
+442,Elective,Discharged,3/20/2024,3/30/2024,Improved,10,COVID-19,Severe,Normal,Pain management,Hydrochlorothiazide,90mcg,10 days,Pulmonology,100,1,35,A364
+443,Elective,Discharged,4/1/2024,4/2/2024,,1,Physical Checkup,Unclassified,Normal,Blood test,None,0mg,0 days,General Medicine,64,16,360,F228
+444,Elective,Discharged,7/3/2024,7/3/2024,,0,Migraine,Mild,Normal,Pain management,Albuterol,2000 IU,Ongoing,Neurology,234,19,342,B152
+445,Emergency,Open,2/20/2024,,,,Kidney infection,Moderate,Abnormal,Physical therapy,Oxycodone,250mg,30 days,Nephrology,237,2,401,A441
+446,Emergency,Discharged,2/2/2024,2/4/2024,Stable,2,Bronchitis,Mild,Abnormal,Blood pressure management,Oxycodone,500mg,14 days,Pulmonology,305,12,476,A426
+447,Urgent,Discharged,9/19/2024,10/11/2024,Transferred,22,Cancer,Severe,Abnormal,Pain management,Ceftriaxone,400mg,30 days,Oncology,227,15,438,B215
+448,Emergency,Discharged,8/1/2024,8/30/2024,,29,Cancer,Severe,Normal,Blood pressure management,Paracetamol,10mg,7 days,Oncology,128,17,466,B155
+449,Urgent,Open,5/11/2024,,,,Pneumonia,Moderate,Inconclusive,Physical therapy,Prednisone,2000 IU,30 days,Pulmonology,321,3,614,F448
+450,Emergency,Discharged,1/19/2024,1/19/2024,Transferred,0,Arthritis,Moderate,Inconclusive,Chemotherapy,Metformin,400mg,5 days,Orthopedics,142,18,495,E451
+451,Emergency,Discharged,3/10/2024,3/20/2024,Improved,10,COVID-19,Severe,Inconclusive,Corticosteroid injection,Aspirin,250mg,30 days,Pulmonology,216,9,84,C168
+452,Emergency,Open,10/15/2024,,,,Mental health disorder,Unclassified,Abnormal,IV fluids,Citalopram,2000 IU,14 days,Psychiatry,74,3,439,E226
+453,Urgent,Discharged,5/30/2024,5/30/2024,,0,Bronchitis,Mild,Inconclusive,Bronchodilator therapy,Aspirin,500mcg,10 days,Pulmonology,177,12,175,F260
+454,Emergency,Open,7/26/2024,,,,Migraine,Mild,Abnormal,Physical therapy,Amoxicillin,100mg,10 days,Neurology,263,6,448,D360
+455,Emergency,Discharged,3/25/2024,3/28/2024,,3,Hypertension,Moderate,Abnormal,Antibiotic course,Citalopram,10mg,5 days,Cardiology,37,1,555,D412
+456,Emergency,Discharged,8/17/2024,8/17/2024,Stable,0,Kidney infection,Moderate,Abnormal,Blood pressure management,Gabapentin,100mg,5 days,Nephrology,43,16,453,E194
+457,Elective,Discharged,6/18/2024,6/22/2024,Follow-Up Needed,4,Hypertension,Moderate,Abnormal,Blood pressure management,Prednisone,90mcg,5 days,Cardiology,147,1,189,F444
+458,Urgent,Discharged,2/15/2024,2/20/2024,,5,Diabetes mellitus,Moderate,Abnormal,Antibiotic course,Hydrochlorothiazide,250mg,Ongoing,Endocrinology,214,15,473,A159
+459,Emergency,Open,1/5/2024,2/14/2024,,40,Cancer,Severe,Normal,Wound care,Prednisone,250mg,10 days,Oncology,172,9,506,B341
+460,Urgent,Discharged,2/3/2024,2/4/2024,,1,Migraine,Mild,Inconclusive,Pain management,Citalopram,500mcg,10 days,Neurology,55,18,396,A287
+461,Elective,Open,6/11/2024,7/19/2024,,38,Cancer,Severe,Abnormal,Surgery,Ibuprofen,2000 IU,5 days,Oncology,7,3,146,E334
+462,Elective,Discharged,2/7/2024,3/21/2024,Stable,43,Lung infection,Severe,Inconclusive,Dialysis,Ibuprofen,400mg,5 days,Pulmonology,210,13,478,A377
+463,Emergency,Open,9/28/2024,,,,Fractured bone,Moderate,Normal,IV fluids,Lisinopril,1000 IU,7 days,Orthopedics,325,13,554,E443
+464,Emergency,Open,6/24/2024,,,,Pneumonia,Moderate,Abnormal,Chemotherapy,Oxycodone,50mg,10 days,Pulmonology,56,11,47,B380
+465,Elective,Discharged,5/6/2024,5/19/2024,Stable,13,Stroke,Severe,Abnormal,Bronchodilator therapy,Gabapentin,10mg,10 days,Neurology,300,8,489,E341
+466,Elective,Discharged,3/10/2024,4/5/2024,Improved,26,Stroke,Severe,Abnormal,Chemotherapy,Clonazepam,100mg,5 days,Neurology,14,17,1,D337
+467,Emergency,Open,5/15/2024,,,,Diabetes mellitus,Moderate,Normal,Wound care,Aspirin,2000 IU,Ongoing,Endocrinology,327,14,382,F116
+468,Urgent,Open,1/1/2024,,,,Bronchitis,Mild,Inconclusive,Blood pressure management,Oxycodone,2000 IU,5 days,Pulmonology,1,1,567,E308
+469,Urgent,Open,4/10/2024,,,,Diabetes mellitus,Moderate,Abnormal,Bronchodilator therapy,Ibuprofen,400mg,30 days,Endocrinology,192,11,28,C287
+470,Urgent,Discharged,2/20/2024,3/1/2024,Transferred,10,Stroke,Severe,Normal,Wound care,Albuterol,100mg,30 days,Neurology,256,10,356,F391
+471,Emergency,Open,7/7/2024,,,,Mental health disorder,Unclassified,Inconclusive,Chemotherapy,Albuterol,250mg,14 days,Psychiatry,217,9,17,A133
+472,Elective,Discharged,5/18/2024,5/20/2024,,2,Diabetes mellitus,Moderate,Abnormal,Physical therapy,Albuterol,500mg,Ongoing,Endocrinology,181,18,569,C400
+473,Elective,Discharged,1/30/2024,2/5/2024,,6,Pneumonia,Moderate,Abnormal,Bronchodilator therapy,Lisinopril,500mg,14 days,Pulmonology,316,17,171,F356
+474,Emergency,Discharged,4/24/2024,5/27/2024,Stable,33,Stroke,Severe,Inconclusive,Radiation therapy,Methotrexate,400mg,5 days,Neurology,113,5,457,E109
+475,Elective,Open,8/21/2024,,,,Kidney infection,Moderate,Inconclusive,Antibiotic course,Metformin,50mg,Ongoing,Nephrology,72,14,508,B180
+476,Urgent,Discharged,5/27/2024,5/30/2024,,3,Bronchitis,Mild,Abnormal,IV fluids,Aspirin,500mcg,10 days,Pulmonology,45,2,584,B136
+477,Elective,Discharged,4/19/2024,4/26/2024,Transferred,7,Pneumonia,Moderate,Inconclusive,Surgery,Citalopram,90mcg,30 days,Pulmonology,251,14,51,B294
+478,Urgent,Discharged,5/8/2024,5/8/2024,,0,Fractured bone,Moderate,Inconclusive,Wound care,Aspirin,1000 IU,Ongoing,Orthopedics,266,6,585,F217
+479,Emergency,Discharged,3/1/2024,3/11/2024,,10,Stroke,Severe,Inconclusive,Pain management,Methotrexate,10mg,30 days,Neurology,135,13,183,D246
+480,Urgent,Discharged,3/21/2024,3/31/2024,Follow-Up Needed,10,COVID-19,Severe,Normal,Surgery,Aspirin,500mcg,14 days,Pulmonology,89,8,154,A106
+481,Emergency,Discharged,2/9/2024,2/11/2024,Transferred,2,Bronchitis,Mild,Inconclusive,Wound care,Metformin,250mg,10 days,Pulmonology,296,2,451,E316
+482,Emergency,Discharged,6/24/2024,7/23/2024,Transferred,29,Lung infection,Severe,Abnormal,Surgery,Hydrochlorothiazide,500mg,30 days,Pulmonology,329,11,556,C445
+483,Elective,Discharged,5/2/2024,6/26/2024,,55,Stroke,Severe,Inconclusive,Wound care,Ceftriaxone,400mg,14 days,Neurology,190,16,243,B364
+484,Urgent,Open,1/29/2024,,,,Back pain,Mild,Normal,Bronchodilator therapy,Prednisone,50mg,14 days,Orthopedics,57,16,39,F361
+485,Urgent,Discharged,7/14/2024,7/19/2024,Transferred,5,Back pain,Mild,Inconclusive,IV fluids,Prednisone,2000 IU,14 days,Orthopedics,240,14,170,B116
+486,Urgent,Discharged,5/5/2024,5/7/2024,Improved,2,Mental health disorder,Unclassified,Abnormal,Chemotherapy,Aspirin,90mcg,10 days,Psychiatry,140,19,257,F353
+487,Urgent,Discharged,1/6/2024,1/16/2024,Stable,10,COVID-19,Severe,Inconclusive,Dialysis,Clonazepam,400mg,30 days,Pulmonology,154,18,429,C257
+488,Elective,Discharged,4/8/2024,4/18/2024,Transferred,10,Stroke,Severe,Abnormal,Bronchodilator therapy,Lisinopril,500mg,10 days,Neurology,36,1,341,F189
+489,Urgent,Open,10/15/2024,,,,Pneumonia,Moderate,Normal,Corticosteroid injection,Hydrochlorothiazide,10mg,7 days,Pulmonology,122,9,230,D231
+490,Elective,Open,4/29/2024,,,,Pneumonia,Moderate,Inconclusive,Dialysis,Prednisone,10mg,10 days,Pulmonology,293,14,430,C476
+491,Emergency,Discharged,4/24/2024,4/25/2024,Improved,1,Fractured bone,Moderate,Abnormal,Dialysis,Clonazepam,90mcg,7 days,Orthopedics,178,17,615,B166
+492,Urgent,Discharged,3/9/2024,3/12/2024,Transferred,3,Diabetes mellitus,Moderate,Normal,Blood pressure management,Metformin,500mcg,10 days,Endocrinology,82,18,599,B357
+493,Emergency,Discharged,4/10/2024,4/20/2024,Transferred,10,Cancer,Severe,Abnormal,IV fluids,Prednisone,50mg,7 days,Oncology,295,18,287,E491
+494,Urgent,Discharged,3/26/2024,3/30/2024,,4,Mental health disorder,Unclassified,Normal,Physical therapy,Gabapentin,100mg,14 days,Psychiatry,151,11,337,E293
+495,Elective,Discharged,1/5/2024,1/7/2024,Stable,2,Bronchitis,Mild,Normal,Bronchodilator therapy,Albuterol,1000 IU,Ongoing,Pulmonology,188,1,539,D296
+496,Urgent,Open,9/10/2024,,,,Arthritis,Moderate,Abnormal,Radiation therapy,Prednisone,2000 IU,7 days,Orthopedics,211,14,252,E129
+497,Urgent,Open,3/16/2024,,,,Arthritis,Moderate,Normal,Bronchodilator therapy,Ceftriaxone,250mg,Ongoing,Orthopedics,208,15,486,F156
+498,Urgent,Open,1/3/2024,1/13/2024,,10,Cancer,Severe,Normal,Blood pressure management,Oxycodone,1000 IU,Ongoing,Oncology,295,18,286,B377
+499,Emergency,Discharged,8/26/2024,10/7/2024,Stable,42,Lung infection,Severe,Inconclusive,Pain management,Amoxicillin,100mg,30 days,Pulmonology,42,4,395,C170
+500,Urgent,Discharged,9/14/2024,10/14/2024,Transferred,30,Cancer,Severe,Inconclusive,Surgery,Hydrochlorothiazide,1000 IU,Ongoing,Oncology,205,17,60,C423
+501,Emergency,Discharged,3/1/2024,3/1/2024,Follow-Up Needed,0,Kidney infection,Moderate,Abnormal,Pain management,Citalopram,250mg,14 days,Nephrology,182,8,487,A315
+502,Elective,Discharged,8/7/2024,8/9/2024,,2,Hypertension,Moderate,Abnormal,Antibiotic course,Gabapentin,1000 IU,30 days,Cardiology,131,19,309,B285
+503,Elective,Discharged,3/3/2024,3/13/2024,,10,Stroke,Severe,Normal,Blood pressure management,Hydrochlorothiazide,100mg,7 days,Neurology,25,7,283,A354
+504,Urgent,Discharged,5/29/2024,5/30/2024,Follow-Up Needed,1,Hypertension,Moderate,Normal,IV fluids,Oxycodone,10mg,7 days,Cardiology,169,6,613,D495
+505,Urgent,Open,2/13/2024,,,,Diabetes mellitus,Moderate,Abnormal,Bronchodilator therapy,Oxycodone,250mg,7 days,Endocrinology,137,10,509,E206
+506,Urgent,Open,5/22/2024,6/1/2024,,10,Lung infection,Severe,Abnormal,Radiation therapy,Oxycodone,1000 IU,5 days,Pulmonology,231,14,106,D153
+507,Urgent,Discharged,4/16/2024,4/16/2024,Improved,0,Fractured bone,Moderate,Inconclusive,Pain management,Gabapentin,10mg,14 days,Orthopedics,244,3,340,A274
+508,Urgent,Discharged,7/15/2024,7/19/2024,,4,Pneumonia,Moderate,Normal,Bronchodilator therapy,Metformin,50mg,14 days,Pulmonology,309,3,570,B450
+509,Elective,Discharged,1/14/2024,1/24/2024,,10,Pneumonia,Moderate,Normal,Bronchodilator therapy,Aspirin,500mg,10 days,Pulmonology,316,17,57,F177
+510,Elective,Discharged,8/15/2024,8/19/2024,Improved,4,Fractured bone,Moderate,Normal,Chemotherapy,Gabapentin,2000 IU,7 days,Orthopedics,211,14,147,F287
+511,Urgent,Open,9/15/2024,10/1/2024,,16,Lung infection,Severe,Abnormal,Pain management,Aspirin,10mg,Ongoing,Pulmonology,100,1,552,B237
+512,Urgent,Discharged,8/14/2024,8/15/2024,Transferred,1,Migraine,Mild,Normal,Surgery,Hydrochlorothiazide,400mg,14 days,Neurology,267,17,629,C200
+513,Urgent,Discharged,5/24/2024,5/27/2024,Improved,3,Migraine,Mild,Abnormal,Surgery,Hydrochlorothiazide,500mcg,30 days,Neurology,58,12,409,D300
+514,Urgent,Discharged,8/1/2024,8/24/2024,Stable,23,Cancer,Severe,Abnormal,Surgery,Amoxicillin,400mg,7 days,Oncology,238,18,73,D104
+515,Emergency,Discharged,4/2/2024,4/2/2024,,0,Mental health disorder,Unclassified,Inconclusive,Wound care,Ceftriaxone,500mcg,30 days,Psychiatry,217,9,475,F413
+516,Urgent,Open,9/26/2024,10/23/2024,,27,Cancer,Severe,Abnormal,Physical therapy,Citalopram,500mcg,14 days,Oncology,161,1,635,F474
+517,Emergency,Discharged,1/19/2024,1/22/2024,,3,Kidney infection,Moderate,Inconclusive,Blood pressure management,Paracetamol,2000 IU,10 days,Nephrology,50,2,128,B484
+518,Emergency,Discharged,4/2/2024,4/11/2024,Stable,9,Bronchitis,Mild,Inconclusive,Bronchodilator therapy,Paracetamol,100mg,14 days,Pulmonology,132,8,577,C222
+519,Urgent,Discharged,1/1/2024,1/24/2024,Stable,23,Lung infection,Severe,Inconclusive,Physical therapy,Ceftriaxone,90mcg,14 days,Pulmonology,293,14,250,A307
+520,Urgent,Discharged,4/25/2024,4/25/2024,Stable,0,Migraine,Mild,Normal,Antibiotic course,Gabapentin,250mg,10 days,Neurology,212,10,53,F103
+521,Emergency,Open,2/25/2024,2/28/2024,Stable,3,Allergy,Moderate,Normal,Antihistamine prescription,Diphenhydramine,25mg,5 days,General Medicine,174,7,592,B468
+522,Urgent,Open,2/18/2024,,,,Migraine,Mild,Inconclusive,Corticosteroid injection,Aspirin,10mg,5 days,Neurology,256,10,276,A234
+523,Emergency,Discharged,8/7/2024,8/7/2024,,0,Mental health disorder,Unclassified,Normal,Surgery,Citalopram,250mg,7 days,Psychiatry,65,5,77,C303
+524,Urgent,Discharged,2/18/2024,2/18/2024,Transferred,0,Bronchitis,Mild,Normal,Physical therapy,Amoxicillin,10mg,7 days,Pulmonology,254,18,523,A281
+525,Elective,Open,5/3/2024,5/13/2024,,10,COVID-19,Severe,Abnormal,Antibiotic course,Albuterol,50mg,5 days,Pulmonology,77,5,490,E182
+526,Urgent,Open,4/10/2024,,,,Hypertension,Moderate,Normal,Chemotherapy,Citalopram,400mg,10 days,Cardiology,176,5,612,E375
+527,Emergency,Open,4/12/2024,4/22/2024,,10,Heart failure,Severe,Normal,Antibiotic course,Amoxicillin,100mg,7 days,Cardiology,158,9,121,E422
+528,Urgent,Open,5/31/2024,5/31/2024,,0,Stroke,Severe,Normal,Surgery,Oxycodone,250mg,14 days,Neurology,135,13,457,D395
+529,Urgent,Discharged,1/22/2024,1/28/2024,Improved,6,Kidney infection,Moderate,Abnormal,Chemotherapy,Paracetamol,10mg,30 days,Nephrology,32,14,354,D393
+530,Urgent,Discharged,5/25/2024,6/28/2024,Transferred,34,Cancer,Severe,Normal,Pain management,Prednisone,50mg,5 days,Oncology,106,14,247,B498
+531,Urgent,Open,4/2/2024,4/12/2024,,10,Cancer,Severe,Inconclusive,Blood pressure management,Hydrochlorothiazide,400mg,30 days,Oncology,29,16,610,D163
+532,Urgent,Discharged,4/2/2024,4/12/2024,,10,Lung infection,Severe,Inconclusive,Chemotherapy,Amoxicillin,500mg,5 days,Pulmonology,242,10,517,E273
+533,Urgent,Open,9/5/2024,10/21/2024,,46,Lung infection,Severe,Normal,Dialysis,Ibuprofen,500mcg,5 days,Pulmonology,98,1,300,E323
+534,Elective,Discharged,2/22/2024,2/23/2024,Improved,1,Mild viral infection,Mild,Normal,Bed rest and hydration,Paracetamol,500mg,3 days,General Medicine,108,3,467,A285
+535,Urgent,Discharged,1/15/2024,1/25/2024,Follow-Up Needed,10,COVID-19,Severe,Normal,IV fluids,Paracetamol,400mg,14 days,Pulmonology,328,12,264,B104
+536,Urgent,Open,2/10/2024,2/20/2024,,10,Lung infection,Severe,Inconclusive,Pain management,Paracetamol,100mg,10 days,Pulmonology,231,14,619,B228
+537,Emergency,Open,5/1/2024,5/11/2024,,10,Cancer,Severe,Abnormal,Physical therapy,Aspirin,500mcg,Ongoing,Oncology,117,13,253,F345
+538,Elective,Discharged,2/15/2024,2/25/2024,Transferred,10,Lung infection,Severe,Inconclusive,Dialysis,Amoxicillin,1000 IU,10 days,Pulmonology,1,1,381,D477
+539,Emergency,Open,4/11/2024,,,,Bronchitis,Mild,Abnormal,IV fluids,Amoxicillin,400mg,14 days,Pulmonology,320,8,44,D122
+540,Emergency,Discharged,9/19/2024,9/20/2024,,1,Fractured bone,Moderate,Abnormal,IV fluids,Albuterol,50mg,Ongoing,Orthopedics,301,19,548,E220
+541,Elective,Open,9/10/2024,,,,Back pain,Mild,Normal,Radiation therapy,Aspirin,500mg,14 days,Orthopedics,167,16,317,C333
+542,Emergency,Discharged,2/18/2024,2/20/2024,,2,Migraine,Mild,Inconclusive,Blood pressure management,Albuterol,400mg,30 days,Neurology,157,9,259,D419
+543,Elective,Discharged,5/20/2024,5/20/2024,Transferred,0,Back pain,Mild,Normal,Physical therapy,Aspirin,100mg,14 days,Orthopedics,219,10,360,E218
+544,Urgent,Discharged,2/14/2024,2/15/2024,Transferred,1,Pneumonia,Moderate,Inconclusive,Bronchodilator therapy,Ibuprofen,2000 IU,Ongoing,Pulmonology,289,5,490,B496
+545,Urgent,Discharged,6/2/2024,6/2/2024,Follow-Up Needed,0,Bronchitis,Mild,Abnormal,IV fluids,Paracetamol,10mg,30 days,Pulmonology,185,2,370,E174
+546,Emergency,Open,3/23/2024,4/2/2024,,10,COVID-19,Severe,Normal,Surgery,Ibuprofen,10mg,Ongoing,Pulmonology,198,13,465,C119
+547,Elective,Discharged,3/24/2024,3/26/2024,Improved,2,Viral infection,Moderate,Abnormal,Antiviral therapy,Acyclovir,400mg,7 days,General Medicine,229,17,573,E134
+548,Urgent,Discharged,5/17/2024,5/27/2024,Transferred,10,Stroke,Severe,Inconclusive,Physical therapy,Ibuprofen,500mg,7 days,Neurology,300,8,43,F133
+549,Emergency,Open,5/4/2024,5/14/2024,,10,Stroke,Severe,Abnormal,Blood pressure management,Methotrexate,100mg,14 days,Neurology,36,1,627,A252
+550,Elective,Discharged,5/17/2024,6/11/2024,Improved,25,Lung infection,Severe,Inconclusive,Blood pressure management,Clonazepam,100mg,7 days,Pulmonology,154,18,455,D213
+551,Elective,Discharged,5/2/2024,5/3/2024,Follow-Up Needed,1,Back pain,Mild,Abnormal,IV fluids,Amoxicillin,500mcg,5 days,Orthopedics,187,16,547,E224
+552,Urgent,Discharged,9/11/2024,10/19/2024,Improved,38,Cancer,Severe,Abnormal,Surgery,Ceftriaxone,10mg,5 days,Oncology,331,5,187,B207
+553,Urgent,Open,7/8/2024,,,,Kidney infection,Moderate,Abnormal,Corticosteroid injection,Prednisone,90mcg,Ongoing,Nephrology,138,8,481,B265
+554,Elective,Discharged,1/9/2024,1/19/2024,Transferred,10,Cancer,Severe,Inconclusive,Surgery,Amoxicillin,50mg,30 days,Oncology,7,3,227,A329
+555,Urgent,Discharged,3/3/2024,3/7/2024,Improved,4,Back pain,Mild,Normal,Wound care,Oxycodone,250mg,30 days,Orthopedics,222,19,272,B218
+556,Emergency,Open,5/17/2024,6/12/2024,,26,Cancer,Severe,Inconclusive,Pain management,Albuterol,500mcg,14 days,Oncology,205,17,379,F192
+557,Urgent,Discharged,2/21/2024,2/22/2024,,1,Pneumonia,Moderate,Normal,Radiation therapy,Ceftriaxone,2000 IU,30 days,Pulmonology,293,14,588,C208
+558,Emergency,Discharged,3/18/2024,3/18/2024,,0,Diabetes mellitus,Moderate,Normal,IV fluids,Hydrochlorothiazide,50mg,7 days,Endocrinology,120,8,14,F230
+559,Urgent,Discharged,8/1/2024,8/12/2024,Improved,11,Back pain,Mild,Abnormal,Surgery,Prednisone,250mg,30 days,Orthopedics,112,12,460,A400
+560,Elective,Open,10/11/2024,,,,Diabetes mellitus,Moderate,Normal,Corticosteroid injection,Amoxicillin,500mg,10 days,Endocrinology,60,7,166,F431
+561,Elective,Discharged,9/10/2024,10/10/2024,Stable,30,Heart failure,Severe,Inconclusive,Blood pressure management,Hydrochlorothiazide,500mg,30 days,Cardiology,164,18,601,F184
+562,Emergency,Discharged,1/15/2024,1/17/2024,Stable,2,Seasonal allergies,Moderate,Abnormal,Prescribed antihistamines,Loratadine,10mg,As needed,General Medicine,53,15,282,D282
+563,Urgent,Open,5/19/2024,,,,Migraine,Mild,Normal,Wound care,Ibuprofen,2000 IU,10 days,Neurology,91,6,622,D312
+564,Urgent,Open,2/14/2024,,,,Pneumonia,Moderate,Abnormal,Physical therapy,Amoxicillin,10mg,10 days,Pulmonology,155,19,318,F328
+565,Elective,Open,4/24/2024,,,,Arthritis,Moderate,Normal,Surgery,Aspirin,500mg,5 days,Orthopedics,240,14,446,C343
+566,Elective,Discharged,5/7/2024,6/1/2024,Follow-Up Needed,25,Heart failure,Severe,Inconclusive,Surgery,Metformin,10mg,30 days,Cardiology,257,3,617,A393
+567,Emergency,Discharged,9/13/2024,9/17/2024,Follow-Up Needed,4,Diabetes mellitus,Moderate,Abnormal,Corticosteroid injection,Clonazepam,500mcg,14 days,Endocrinology,252,5,62,E176
+568,Elective,Discharged,3/24/2024,3/24/2024,Stable,0,Arthritis,Moderate,Inconclusive,Radiation therapy,Amoxicillin,250mg,7 days,Orthopedics,44,6,572,B205
+569,Urgent,Open,1/22/2024,2/1/2024,,10,Cancer,Severe,Abnormal,Pain management,Paracetamol,500mg,7 days,Oncology,150,7,595,F141
+570,Emergency,Discharged,10/10/2024,10/10/2024,,0,Hypertension,Moderate,Abnormal,Surgery,Paracetamol,500mcg,5 days,Cardiology,103,16,317,A282
+571,Elective,Open,1/7/2024,,,,Kidney infection,Moderate,Normal,Radiation therapy,Albuterol,10mg,14 days,Nephrology,127,5,544,D195
+572,Urgent,Open,3/11/2024,3/21/2024,,10,Stroke,Severe,Inconclusive,Blood pressure management,Prednisone,250mg,14 days,Neurology,324,14,450,C155
+573,Elective,Discharged,3/19/2024,4/24/2024,,36,Mental health disorder,Unclassified,Abnormal,Chemotherapy,Albuterol,50mg,Ongoing,Psychiatry,250,9,581,C446
+574,Urgent,Discharged,7/23/2024,7/25/2024,Follow-Up Needed,2,Bronchitis,Mild,Inconclusive,Corticosteroid injection,Citalopram,100mg,30 days,Pulmonology,77,5,605,B276
+575,Urgent,Open,9/1/2024,10/2/2024,,31,Lung infection,Severe,Normal,Dialysis,Albuterol,1000 IU,7 days,Pulmonology,100,1,344,D459
+576,Emergency,Discharged,2/22/2024,2/22/2024,Stable,0,Arthritis,Moderate,Inconclusive,Antibiotic course,Citalopram,400mg,14 days,Orthopedics,325,13,471,C117
+577,Urgent,Open,5/20/2024,5/30/2024,,10,Stroke,Severe,Normal,Wound care,Gabapentin,500mg,7 days,Neurology,276,12,536,E365
+578,Urgent,Discharged,2/23/2024,2/23/2024,Stable,0,Migraine,Mild,Inconclusive,Dialysis,Prednisone,250mg,7 days,Neurology,153,8,503,B194
+579,Urgent,Discharged,3/1/2024,3/2/2024,Follow-Up Needed,1,Kidney infection,Moderate,Normal,Radiation therapy,Methotrexate,10mg,7 days,Nephrology,6,19,420,D467
+580,Emergency,Discharged,5/17/2024,5/18/2024,Improved,1,Pneumonia,Moderate,Normal,Bronchodilator therapy,Albuterol,2000 IU,7 days,Pulmonology,143,17,545,C354
+581,Emergency,Open,3/5/2024,,,,Kidney infection,Moderate,Abnormal,IV fluids,Ibuprofen,400mg,30 days,Nephrology,105,8,308,A415
+582,Urgent,Discharged,8/21/2024,8/24/2024,Stable,3,Migraine,Mild,Abnormal,Pain management,Ibuprofen,90mcg,10 days,Neurology,146,18,488,D169
+583,Elective,Open,3/28/2024,,,,Arthritis,Moderate,Inconclusive,Physical therapy,Ibuprofen,100mg,Ongoing,Orthopedics,189,14,235,E186
+584,Emergency,Discharged,3/8/2024,3/17/2024,,9,Bronchitis,Mild,Normal,Dialysis,Paracetamol,1000 IU,14 days,Pulmonology,210,13,295,F310
+585,Emergency,Open,3/27/2024,,,,Mental health disorder,Unclassified,Abnormal,Blood pressure management,Paracetamol,50mg,30 days,Psychiatry,228,17,377,B486
+586,Urgent,Open,9/4/2024,,,,Mental health disorder,Unclassified,Inconclusive,Blood pressure management,Ibuprofen,250mg,14 days,Psychiatry,313,7,426,F366
+587,Emergency,Discharged,9/23/2024,9/30/2024,,7,Hypertension,Moderate,Abnormal,Surgery,Amoxicillin,10mg,30 days,Cardiology,298,12,454,F290
+588,Emergency,Discharged,4/26/2024,5/6/2024,Improved,10,COVID-19,Severe,Inconclusive,Chemotherapy,Methotrexate,400mg,30 days,Pulmonology,42,4,363,D148
+589,Emergency,Open,5/15/2024,,,,Fractured bone,Moderate,Abnormal,Antibiotic course,Gabapentin,1000 IU,5 days,Orthopedics,68,1,15,B170
+590,Emergency,Discharged,5/16/2024,5/26/2024,Improved,10,Lung infection,Severe,Normal,Antibiotic course,Clonazepam,10mg,5 days,Pulmonology,111,15,380,E283
+591,Emergency,Open,1/15/2024,,,,Bronchitis,Mild,Inconclusive,Blood pressure management,Paracetamol,500mcg,30 days,Pulmonology,317,5,260,D444
+592,Elective,Discharged,3/18/2024,3/20/2024,Improved,2,Mild cough,Mild,Normal,Bed rest and fluids,Guaifenesin,200mg,3 days,General Medicine,218,7,270,A484
+593,Elective,Open,1/22/2024,,,,Arthritis,Moderate,Inconclusive,Surgery,Aspirin,50mg,14 days,Orthopedics,167,16,567,C478
+594,Elective,Open,9/16/2024,,,,Bronchitis,Mild,Abnormal,Dialysis,Hydrochlorothiazide,1000 IU,5 days,Pulmonology,305,12,255,E233
+595,Emergency,Discharged,3/25/2024,3/27/2024,Stable,2,Flu,Moderate,Abnormal,Rest and hydration,Ibuprofen,400mg,5 days,General Medicine,262,8,431,D365
+596,Emergency,Open,8/2/2024,8/30/2024,,28,Heart failure,Severe,Normal,Wound care,Prednisone,10mg,5 days,Cardiology,220,4,289,C154
+597,Emergency,Open,7/10/2024,,,,Pneumonia,Moderate,Normal,Blood pressure management,Oxycodone,2000 IU,7 days,Pulmonology,133,19,277,A156
+598,Elective,Discharged,8/18/2024,9/20/2024,,33,Lung infection,Severe,Inconclusive,Chemotherapy,Ibuprofen,2000 IU,Ongoing,Pulmonology,309,3,376,F169
+599,Elective,Discharged,3/16/2024,3/19/2024,Stable,3,Bronchitis,Mild,Inconclusive,Chemotherapy,Aspirin,1000 IU,10 days,Pulmonology,320,8,271,F409
+600,Urgent,Discharged,7/16/2024,7/24/2024,,8,Kidney infection,Moderate,Inconclusive,Surgery,Aspirin,500mcg,30 days,Nephrology,193,13,374,B390
+601,Elective,Discharged,6/12/2024,6/15/2024,Follow-Up Needed,3,Mental health disorder,Unclassified,Inconclusive,Radiation therapy,Lisinopril,500mcg,7 days,Psychiatry,19,4,345,F383
+602,Urgent,Open,2/17/2024,2/27/2024,,10,Lung infection,Severe,Normal,Physical therapy,Aspirin,90mcg,14 days,Pulmonology,304,15,63,F376
+603,Urgent,Discharged,4/7/2024,4/14/2024,Transferred,7,Diabetes mellitus,Moderate,Inconclusive,Corticosteroid injection,Methotrexate,100mg,10 days,Endocrinology,236,19,198,A200
+604,Urgent,Open,5/16/2024,5/26/2024,,10,Lung infection,Severe,Normal,Physical therapy,Lisinopril,500mcg,Ongoing,Pulmonology,281,7,432,E363
+605,Elective,Discharged,5/6/2024,5/16/2024,Follow-Up Needed,10,Cancer,Severe,Abnormal,IV fluids,Aspirin,400mg,14 days,Oncology,183,4,347,D414
+606,Urgent,Open,7/28/2024,,,,Back pain,Mild,Inconclusive,Blood pressure management,Ibuprofen,250mg,7 days,Orthopedics,68,1,564,A280
+607,Urgent,Discharged,1/2/2024,1/31/2024,Stable,29,Lung infection,Severe,Abnormal,IV fluids,Ibuprofen,10mg,10 days,Pulmonology,12,6,213,A292
+608,Elective,Discharged,6/6/2024,6/16/2024,,10,Diabetes mellitus,Moderate,Inconclusive,Radiation therapy,Aspirin,2000 IU,5 days,Endocrinology,291,3,22,F449
+609,Elective,Discharged,6/3/2024,6/9/2024,Transferred,6,Fractured bone,Moderate,Normal,IV fluids,Lisinopril,2000 IU,7 days,Orthopedics,35,15,372,D160
+610,Emergency,Discharged,4/20/2024,4/21/2024,Follow-Up Needed,1,Pneumonia,Moderate,Abnormal,Wound care,Methotrexate,1000 IU,Ongoing,Pulmonology,231,14,131,F124
+611,Elective,Discharged,2/14/2024,2/24/2024,Stable,10,Lung infection,Severe,Abnormal,Wound care,Metformin,10mg,14 days,Pulmonology,78,6,31,A459
+612,Emergency,Discharged,4/27/2024,4/30/2024,Transferred,3,Pneumonia,Moderate,Normal,Corticosteroid injection,Aspirin,400mg,10 days,Pulmonology,77,5,496,E405
+613,Emergency,Discharged,1/31/2024,2/10/2024,Improved,10,Lung infection,Severe,Normal,Dialysis,Metformin,90mcg,30 days,Pulmonology,281,7,389,A128
+614,Emergency,Open,8/23/2024,,,,Diabetes mellitus,Moderate,Normal,Antibiotic course,Albuterol,1000 IU,7 days,Endocrinology,21,12,202,D407
+615,Elective,Discharged,3/3/2024,3/9/2024,,6,Kidney infection,Moderate,Inconclusive,Wound care,Clonazepam,2000 IU,7 days,Nephrology,264,2,462,E349
+616,Emergency,Discharged,4/2/2024,4/3/2024,Improved,1,Back pain,Mild,Abnormal,Blood pressure management,Albuterol,2000 IU,30 days,Orthopedics,233,16,788,D257
+617,Emergency,Open,4/18/2024,4/28/2024,,10,Stroke,Severe,Inconclusive,Chemotherapy,Prednisone,50mg,10 days,Neurology,179,14,503,D108
+618,Elective,Discharged,1/28/2024,2/8/2024,Stable,11,Back pain,Mild,Inconclusive,Antibiotic course,Lisinopril,250mg,5 days,Orthopedics,62,5,67,C381
+619,Urgent,Open,4/29/2024,5/9/2024,,10,Cancer,Severe,Normal,Antibiotic course,Hydrochlorothiazide,10mg,14 days,Oncology,51,19,386,F111
+620,Emergency,Open,8/16/2024,8/26/2024,,10,Lung infection,Severe,Inconclusive,Wound care,Citalopram,2000 IU,10 days,Pulmonology,34,5,449,D392
+621,Emergency,Open,8/14/2024,,,,Heart failure,Severe,Inconclusive,Radiation therapy,Prednisone,50mg,7 days,Cardiology,110,4,223,C151
+622,Elective,Discharged,2/15/2024,2/16/2024,Improved,1,Skin rash,Mild,Normal,Corticosteroid injection,Hydrocortisone,1mg,7 days,General Medicine,196,5,424,D352
+623,Emergency,Discharged,10/13/2024,10/17/2024,,4,Kidney infection,Moderate,Inconclusive,Dialysis,Aspirin,400mg,14 days,Nephrology,230,6,578,C235
+624,Emergency,Open,1/5/2024,,,,Cancer,Severe,Inconclusive,Dialysis,Clonazepam,90mcg,Ongoing,Oncology,139,15,246,C111
+625,Urgent,Discharged,4/19/2024,4/19/2024,Follow-Up Needed,0,Hypertension,Moderate,Normal,Radiation therapy,Lisinopril,50mg,10 days,Cardiology,81,5,456,C286
+626,Emergency,Open,7/2/2024,,,,COVID-19,Severe,Abnormal,Corticosteroid injection,Citalopram,50mg,30 days,Pulmonology,1,1,559,E496
+627,Emergency,Discharged,8/20/2024,8/20/2024,Follow-Up Needed,0,Pneumonia,Moderate,Inconclusive,Antibiotic course,Paracetamol,250mg,7 days,Pulmonology,155,19,391,B315
+628,Emergency,Discharged,8/4/2024,9/1/2024,Stable,28,COVID-19,Severe,Abnormal,Radiation therapy,Hydrochlorothiazide,90mcg,7 days,Pulmonology,210,13,425,E380
+629,Urgent,Open,3/17/2024,,,,Migraine,Mild,Normal,Pain management,Prednisone,100mg,14 days,Neurology,124,3,479,F265
+630,Urgent,Discharged,7/6/2024,7/6/2024,Stable,0,Hypertension,Moderate,Inconclusive,Dialysis,Albuterol,2000 IU,10 days,Cardiology,15,15,582,B338
+631,Emergency,Open,8/20/2024,,,,Kidney infection,Moderate,Normal,Antibiotic course,Metformin,100mg,30 days,Nephrology,283,13,114,A324
+632,Elective,Open,2/25/2024,,,,COVID-19,Severe,Normal,Physical therapy,Prednisone,1000 IU,14 days,Pulmonology,316,17,285,F422
+633,Emergency,Discharged,7/11/2024,7/12/2024,Follow-Up Needed,1,Back pain,Mild,Abnormal,Blood pressure management,Citalopram,10mg,10 days,Orthopedics,156,3,398,F470
+634,Emergency,Open,3/3/2024,4/7/2024,,35,COVID-19,Severe,Inconclusive,Bronchodilator therapy,Methotrexate,400mg,7 days,Pulmonology,133,19,491,F123
+635,Elective,Discharged,7/7/2024,7/12/2024,Stable,5,Arthritis,Moderate,Normal,Dialysis,Methotrexate,10mg,14 days,Orthopedics,101,3,355,D265
+636,Elective,Discharged,3/21/2024,3/23/2024,,2,Back pain,Mild,Inconclusive,Bronchodilator therapy,Aspirin,50mg,10 days,Orthopedics,323,8,105,B172
+637,Elective,Discharged,3/25/2024,3/25/2024,,0,Kidney infection,Moderate,Abnormal,Corticosteroid injection,Amoxicillin,400mg,30 days,Nephrology,237,2,274,D425
+638,Elective,Discharged,8/12/2024,8/17/2024,Transferred,5,Bronchitis,Mild,Normal,Pain management,Lisinopril,1000 IU,14 days,Pulmonology,76,13,304,C108
+639,Emergency,Discharged,1/28/2024,2/7/2024,Stable,10,Lung infection,Severe,Abnormal,Blood pressure management,Methotrexate,400mg,7 days,Pulmonology,294,16,365,C198
+640,Elective,Discharged,4/11/2024,4/11/2024,Transferred,0,Diabetes mellitus,Moderate,Abnormal,Bronchodilator therapy,Clonazepam,2000 IU,Ongoing,Endocrinology,126,9,18,F495
+641,Urgent,Open,9/6/2024,,,,Mental health disorder,Unclassified,Abnormal,Radiation therapy,Clonazepam,1000 IU,30 days,Psychiatry,85,16,357,F348
+642,Emergency,Discharged,9/30/2024,10/6/2024,,6,Arthritis,Moderate,Normal,Bronchodilator therapy,Citalopram,500mg,30 days,Orthopedics,35,15,244,E228
+643,Emergency,Discharged,5/30/2024,5/31/2024,Transferred,1,Stroke,Severe,Inconclusive,Surgery,Methotrexate,100mg,14 days,Neurology,234,19,273,E352
+644,Urgent,Discharged,8/11/2024,10/5/2024,,55,Stroke,Severe,Normal,Blood pressure management,Amoxicillin,500mg,Ongoing,Neurology,135,13,95,D439
+645,Emergency,Discharged,2/1/2024,2/26/2024,,25,Stroke,Severe,Abnormal,Blood pressure management,Amoxicillin,500mcg,7 days,Neurology,288,11,16,E198
+646,Urgent,Open,5/30/2024,,,,Arthritis,Moderate,Abnormal,Chemotherapy,Hydrochlorothiazide,10mg,30 days,Orthopedics,280,18,630,D366
+647,Elective,Open,3/8/2024,3/18/2024,,10,Lung infection,Severe,Inconclusive,Wound care,Gabapentin,500mcg,7 days,Pulmonology,251,14,111,E384
+648,Elective,Discharged,9/19/2024,9/19/2024,Stable,0,Arthritis,Moderate,Abnormal,Physical therapy,Citalopram,500mcg,Ongoing,Orthopedics,311,1,145,A359
+649,Elective,Discharged,2/28/2024,2/29/2024,Stable,1,Kidney infection,Moderate,Normal,Blood pressure management,Methotrexate,2000 IU,Ongoing,Nephrology,193,13,74,F471
+650,Urgent,Discharged,3/6/2024,3/7/2024,,1,Back pain,Mild,Normal,Radiation therapy,Citalopram,500mg,7 days,Orthopedics,44,6,365,F339
+651,Urgent,Discharged,5/19/2024,5/21/2024,,2,Back pain,Mild,Inconclusive,Corticosteroid injection,Citalopram,50mg,7 days,Orthopedics,90,12,305,C152
+652,Emergency,Discharged,1/1/2024,1/1/2024,Transferred,0,Kidney infection,Moderate,Normal,Radiation therapy,Ceftriaxone,2000 IU,14 days,Nephrology,226,6,560,A134
+653,Urgent,Discharged,6/15/2024,6/18/2024,Transferred,3,Pneumonia,Moderate,Abnormal,Radiation therapy,Methotrexate,50mg,10 days,Pulmonology,254,18,323,C420
+654,Urgent,Open,1/27/2024,,,,Fractured bone,Moderate,Inconclusive,Pain management,Clonazepam,100mg,14 days,Orthopedics,2,2,233,A460
+655,Urgent,Discharged,3/18/2024,3/28/2024,,10,Lung infection,Severe,Inconclusive,Physical therapy,Gabapentin,10mg,7 days,Pulmonology,328,12,371,F401
+656,Elective,Discharged,10/11/2024,10/18/2024,Transferred,7,Migraine,Mild,Normal,Radiation therapy,Citalopram,1000 IU,5 days,Neurology,102,16,40,E464
+657,Elective,Open,1/30/2024,,,,Migraine,Mild,Normal,Pain management,Oxycodone,1000 IU,7 days,Neurology,55,18,593,F209
+658,Elective,Open,1/26/2024,,,,Fractured bone,Moderate,Inconclusive,Dialysis,Prednisone,90mcg,5 days,Orthopedics,211,14,339,D422
+659,Urgent,Open,3/15/2024,3/25/2024,,10,COVID-19,Severe,Normal,Wound care,Hydrochlorothiazide,50mg,14 days,Pulmonology,166,10,410,C228
+660,Urgent,Open,7/2/2024,,,,Hypertension,Moderate,Normal,Blood pressure management,Clonazepam,500mcg,5 days,Cardiology,322,16,118,D102
+661,Emergency,Open,3/4/2024,4/21/2024,,48,COVID-19,Severe,Normal,Bronchodilator therapy,Oxycodone,400mg,30 days,Pulmonology,232,9,353,F101
+662,Urgent,Discharged,3/6/2024,3/10/2024,Follow-Up Needed,4,Hypertension,Moderate,Normal,Blood pressure management,Albuterol,500mg,7 days,Cardiology,292,1,516,A348
+663,Elective,Discharged,1/9/2024,2/28/2024,,50,Lung infection,Severe,Normal,Radiation therapy,Methotrexate,1000 IU,5 days,Pulmonology,121,17,537,C268
+664,Urgent,Open,4/19/2024,,,,Mental health disorder,Unclassified,Normal,Physical therapy,Methotrexate,500mcg,10 days,Psychiatry,52,13,405,F306
+665,Urgent,Open,4/13/2024,4/23/2024,,10,Lung infection,Severe,Abnormal,Antibiotic course,Lisinopril,10mg,7 days,Pulmonology,294,16,335,C368
+666,Elective,Open,6/27/2024,,,,Kidney infection,Moderate,Normal,Surgery,Metformin,100mg,Ongoing,Nephrology,237,2,401,D334
+667,Emergency,Open,6/8/2024,,,,Diabetes mellitus,Moderate,Abnormal,Blood pressure management,Ibuprofen,500mcg,5 days,Endocrinology,247,3,322,D110
+668,Elective,Open,5/25/2024,6/7/2024,,13,Cancer,Severe,Abnormal,IV fluids,Methotrexate,400mg,5 days,Oncology,29,16,306,F296
+669,Urgent,Open,7/15/2024,8/16/2024,,32,Lung infection,Severe,Inconclusive,Antibiotic course,Hydrochlorothiazide,500mcg,Ongoing,Pulmonology,109,8,605,A331
+670,Emergency,Discharged,1/4/2024,1/11/2024,,7,Fractured bone,Moderate,Abnormal,Corticosteroid injection,Metformin,500mg,10 days,Orthopedics,101,3,575,D268
+671,Emergency,Discharged,7/10/2024,7/11/2024,,1,Mental health disorder,Unclassified,Normal,Corticosteroid injection,Amoxicillin,50mg,5 days,Psychiatry,41,15,543,D466
+672,Urgent,Open,3/12/2024,3/22/2024,,10,COVID-19,Severe,Abnormal,IV fluids,Metformin,500mcg,14 days,Pulmonology,76,13,279,A365
+673,Elective,Open,3/11/2024,,,,Back pain,Mild,Normal,Wound care,Hydrochlorothiazide,1000 IU,10 days,Orthopedics,266,6,405,B407
+674,Urgent,Open,3/13/2024,,,,Diabetes mellitus,Moderate,Inconclusive,Wound care,Albuterol,400mg,10 days,Endocrinology,192,11,477,B319
+675,Emergency,Discharged,5/7/2024,5/17/2024,Transferred,10,Lung infection,Severe,Inconclusive,IV fluids,Methotrexate,100mg,14 days,Pulmonology,155,19,229,B445
+676,Emergency,Discharged,8/28/2024,8/31/2024,Stable,3,Pneumonia,Moderate,Normal,Bronchodilator therapy,Paracetamol,10mg,10 days,Pulmonology,305,12,331,C141
+677,Elective,Open,5/13/2024,,,,Migraine,Mild,Inconclusive,Pain management,Amoxicillin,500mg,10 days,Neurology,324,14,336,A388
+678,Urgent,Open,5/27/2024,,,,Hypertension,Moderate,Abnormal,Antibiotic course,Hydrochlorothiazide,500mg,10 days,Cardiology,125,2,361,C404
+679,Emergency,Open,4/23/2024,,,,Bronchitis,Mild,Inconclusive,Dialysis,Citalopram,10mg,5 days,Pulmonology,56,11,558,A131
+680,Urgent,Discharged,2/7/2024,2/8/2024,Improved,1,Mild sore throat,Mild,Normal,Prescribed lozenges,Benzocaine,5mg,As needed,General Medicine,302,5,374,B360
+681,Emergency,Open,3/22/2024,,,,Mental health disorder,Unclassified,Normal,Radiation therapy,Amoxicillin,10mg,Ongoing,Psychiatry,107,8,160,F243
+682,Elective,Discharged,9/3/2024,10/20/2024,,47,Mental health disorder,Unclassified,Normal,Wound care,Methotrexate,400mg,7 days,Psychiatry,184,6,281,D287
+683,Urgent,Discharged,1/24/2024,2/3/2024,Follow-Up Needed,10,COVID-19,Severe,Normal,Bronchodilator therapy,Citalopram,250mg,5 days,Pulmonology,251,14,561,F497
+684,Elective,Open,2/12/2024,,,,Hypertension,Moderate,Abnormal,IV fluids,Hydrochlorothiazide,10mg,5 days,Cardiology,59,16,406,E251
+685,Elective,Open,9/29/2024,,,,Mental health disorder,Unclassified,Normal,Surgery,Oxycodone,1000 IU,30 days,Psychiatry,96,17,55,F407
+686,Elective,Discharged,5/23/2024,5/23/2024,Improved,0,Bronchitis,Mild,Inconclusive,Wound care,Gabapentin,400mg,14 days,Pulmonology,199,15,143,B102
+687,Emergency,Discharged,7/23/2024,7/26/2024,,3,Back pain,Mild,Abnormal,Blood pressure management,Albuterol,2000 IU,30 days,Orthopedics,287,19,98,C263
+688,Urgent,Discharged,6/27/2024,7/16/2024,Improved,19,Stroke,Severe,Normal,Physical therapy,Citalopram,1000 IU,7 days,Neurology,300,8,410,F134
+689,Urgent,Open,5/27/2024,,,,Hypertension,Moderate,Normal,Dialysis,Oxycodone,2000 IU,14 days,Cardiology,235,9,538,E415
+690,Emergency,Open,4/20/2024,,,,Bronchitis,Mild,Normal,Radiation therapy,Citalopram,400mg,7 days,Pulmonology,143,17,628,B232
+691,Elective,Discharged,6/18/2024,7/23/2024,Improved,35,Stroke,Severe,Abnormal,Chemotherapy,Oxycodone,500mcg,10 days,Neurology,14,17,624,A232
+692,Urgent,Discharged,5/7/2024,5/20/2024,Follow-Up Needed,13,Stroke,Severe,Normal,Chemotherapy,Ceftriaxone,1000 IU,7 days,Neurology,312,19,492,E439
+693,Elective,Open,2/12/2024,,,,Bronchitis,Mild,Normal,IV fluids,Hydrochlorothiazide,100mg,7 days,Pulmonology,221,4,616,F459
+694,Urgent,Open,4/4/2024,,,,Pneumonia,Moderate,Normal,Surgery,Ibuprofen,100mg,5 days,Pulmonology,177,12,103,D264
+695,Urgent,Open,7/15/2024,,,,Diabetes mellitus,Moderate,Abnormal,Surgery,Lisinopril,50mg,Ongoing,Endocrinology,104,9,122,F430
+696,Elective,Discharged,3/11/2024,3/15/2024,,4,Mental health disorder,Unclassified,Abnormal,Corticosteroid injection,Lisinopril,100mg,7 days,Psychiatry,8,14,97,A423
+697,Elective,Open,6/17/2024,,,,Hypertension,Moderate,Normal,IV fluids,Ibuprofen,250mg,5 days,Cardiology,26,7,180,F458
+698,Urgent,Discharged,2/6/2024,2/6/2024,Improved,0,Diabetes mellitus,Moderate,Abnormal,Bronchodilator therapy,Amoxicillin,1000 IU,5 days,Endocrinology,303,1,635,A132
+699,Elective,Open,5/1/2024,5/20/2024,,19,Cancer,Severe,Inconclusive,Radiation therapy,Albuterol,500mcg,Ongoing,Oncology,271,11,226,D179
+700,Elective,Discharged,7/1/2024,7/1/2024,Stable,0,Fractured bone,Moderate,Normal,Bronchodilator therapy,Paracetamol,250mg,14 days,Orthopedics,222,19,632,D187
+701,Emergency,Discharged,3/2/2024,3/12/2024,Stable,10,Lung infection,Severe,Normal,Wound care,Metformin,90mcg,5 days,Pulmonology,188,1,441,D403
+702,Emergency,Open,5/8/2024,,,,Kidney infection,Moderate,Inconclusive,Physical therapy,Albuterol,100mg,14 days,Nephrology,318,2,618,A143
+703,Elective,Discharged,6/6/2024,6/7/2024,,1,Migraine,Mild,Abnormal,Pain management,Oxycodone,500mg,5 days,Neurology,201,1,79,C216
+704,Urgent,Discharged,3/9/2024,3/16/2024,,7,Migraine,Mild,Abnormal,Bronchodilator therapy,Paracetamol,2000 IU,14 days,Neurology,124,3,599,F443
+705,Urgent,Discharged,5/31/2024,6/5/2024,Follow-Up Needed,5,Fractured bone,Moderate,Abnormal,Corticosteroid injection,Amoxicillin,250mg,30 days,Orthopedics,156,3,20,B278
+706,Urgent,Open,3/2/2024,3/17/2024,,15,Lung infection,Severe,Normal,Physical therapy,Clonazepam,90mcg,14 days,Pulmonology,67,18,614,F336
+707,Elective,Open,4/10/2024,4/24/2024,,14,Heart failure,Severe,Normal,Radiation therapy,Aspirin,1000 IU,10 days,Cardiology,70,5,263,F303
+708,Emergency,Discharged,6/7/2024,7/3/2024,,26,Hypertension,Moderate,Abnormal,Corticosteroid injection,Lisinopril,90mcg,30 days,Cardiology,286,10,461,C386
+709,Emergency,Discharged,8/26/2024,10/1/2024,Improved,36,Stroke,Severe,Inconclusive,Antibiotic course,Ibuprofen,400mg,7 days,Neurology,179,14,608,A283
+710,Urgent,Discharged,4/10/2024,5/31/2024,,51,Cancer,Severe,Normal,Pain management,Oxycodone,90mcg,7 days,Oncology,40,12,66,A245
+711,Urgent,Open,7/14/2024,,,,Mental health disorder,Unclassified,Abnormal,Physical therapy,Ibuprofen,400mg,7 days,Psychiatry,96,17,415,F355
+712,Urgent,Open,4/11/2024,,,,Pneumonia,Moderate,Abnormal,IV fluids,Lisinopril,10mg,5 days,Pulmonology,188,1,588,D448
+713,Elective,Discharged,7/8/2024,7/9/2024,Improved,1,Diabetes mellitus,Moderate,Normal,Surgery,Ceftriaxone,400mg,7 days,Endocrinology,315,15,436,E485
+714,Elective,Discharged,9/28/2024,10/3/2024,,5,Arthritis,Moderate,Normal,Surgery,Aspirin,400mg,30 days,Orthopedics,244,3,438,C203
+715,Urgent,Discharged,5/6/2024,5/31/2024,Stable,25,Lung infection,Severe,Inconclusive,Bronchodilator therapy,Gabapentin,250mg,Ongoing,Pulmonology,281,7,572,E259
+716,Elective,Discharged,7/1/2024,7/8/2024,,7,Kidney infection,Moderate,Normal,Physical therapy,Aspirin,2000 IU,7 days,Nephrology,237,2,462,B235
+717,Urgent,Discharged,6/27/2024,7/5/2024,,8,Back pain,Mild,Inconclusive,Dialysis,Oxycodone,2000 IU,Ongoing,Orthopedics,299,7,134,C305
+718,Urgent,Discharged,7/18/2024,7/21/2024,Improved,3,Back pain,Mild,Normal,Physical therapy,Methotrexate,500mg,10 days,Orthopedics,200,11,349,B385
+719,Emergency,Discharged,9/8/2024,10/23/2024,,45,Hypertension,Moderate,Inconclusive,Wound care,Citalopram,400mg,30 days,Cardiology,22,11,565,C224
+720,Urgent,Open,9/22/2024,,,,Back pain,Mild,Abnormal,Surgery,Metformin,1000 IU,10 days,Orthopedics,142,18,42,E481
+721,Urgent,Discharged,2/7/2024,2/8/2024,Improved,1,Mild sore throat,Mild,Normal,Prescribed lozenges,Benzocaine,5mg,As needed,General Medicine,75,12,80,A153
+722,Urgent,Discharged,1/13/2024,1/15/2024,,2,Hypertension,Moderate,Abnormal,Corticosteroid injection,Metformin,90mcg,Ongoing,Cardiology,274,17,442,C260
+723,Elective,Open,9/3/2024,,,,Bronchitis,Mild,Inconclusive,Dialysis,Aspirin,400mg,5 days,Pulmonology,317,5,265,D364
+724,Elective,Discharged,8/18/2024,10/4/2024,,47,Diabetes mellitus,Moderate,Abnormal,Physical therapy,Albuterol,400mg,7 days,Endocrinology,209,4,278,A260
+725,Elective,Discharged,1/24/2024,2/5/2024,Stable,12,Bronchitis,Mild,Abnormal,Pain management,Gabapentin,250mg,10 days,Pulmonology,67,18,71,C306
+726,Elective,Discharged,3/24/2024,4/3/2024,Follow-Up Needed,10,Lung infection,Severe,Inconclusive,Pain management,Clonazepam,400mg,7 days,Pulmonology,221,4,546,E318
+727,Emergency,Discharged,2/21/2024,3/2/2024,,10,COVID-19,Severe,Normal,Wound care,Gabapentin,1000 IU,10 days,Pulmonology,23,12,557,A447
+728,Emergency,Discharged,6/7/2024,7/12/2024,Stable,35,Heart failure,Severe,Normal,Blood pressure management,Oxycodone,500mcg,30 days,Cardiology,136,4,518,C375
+729,Urgent,Discharged,5/1/2024,6/30/2024,,60,Diabetes mellitus,Moderate,Inconclusive,Surgery,Oxycodone,50mg,Ongoing,Endocrinology,258,5,288,A496
+730,Urgent,Open,4/27/2024,,,,Pneumonia,Moderate,Normal,Surgery,Prednisone,500mg,30 days,Pulmonology,132,8,70,C474
+731,Urgent,Discharged,3/31/2024,4/2/2024,Stable,2,Migraine,Mild,Inconclusive,Antibiotic course,Ceftriaxone,1000 IU,30 days,Neurology,146,18,396,B233
+732,Urgent,Discharged,6/13/2024,8/5/2024,Follow-Up Needed,53,Cancer,Severe,Normal,Pain management,Gabapentin,500mg,5 days,Oncology,95,18,466,A431
+733,Elective,Open,9/9/2024,,,,Diabetes mellitus,Moderate,Normal,Antibiotic course,Hydrochlorothiazide,500mg,10 days,Endocrinology,279,6,208,D371
+734,Urgent,Open,8/31/2024,10/23/2024,,53,Cancer,Severe,Normal,Surgery,Ceftriaxone,400mg,14 days,Oncology,319,10,459,E241
+735,Urgent,Discharged,9/13/2024,9/13/2024,Follow-Up Needed,0,Arthritis,Moderate,Normal,Antibiotic course,Gabapentin,400mg,30 days,Orthopedics,178,17,296,A302
+736,Urgent,Discharged,4/15/2024,5/6/2024,,21,Diabetes mellitus,Moderate,Normal,Dialysis,Paracetamol,500mcg,Ongoing,Endocrinology,303,1,540,F266
+737,Emergency,Discharged,7/19/2024,8/28/2024,Follow-Up Needed,40,Heart failure,Severe,Inconclusive,Physical therapy,Paracetamol,2000 IU,5 days,Cardiology,125,2,590,A413
+738,Elective,Discharged,6/12/2024,6/15/2024,Improved,3,Back pain,Mild,Inconclusive,Antibiotic course,Metformin,500mcg,10 days,Orthopedics,46,2,310,B395
+739,Elective,Discharged,4/1/2024,4/2/2024,Stable,1,General checkup,Unclassified,Normal,Routine blood tests,None,0mg,0 days,General Medicine,278,16,93,C245
+740,Emergency,Discharged,3/27/2024,3/31/2024,Improved,4,Bronchitis,Mild,Abnormal,Radiation therapy,Methotrexate,250mg,14 days,Pulmonology,111,15,37,B250
+741,Elective,Open,7/19/2024,,,,Fractured bone,Moderate,Abnormal,IV fluids,Aspirin,1000 IU,14 days,Orthopedics,311,1,399,F236
+742,Urgent,Open,4/3/2024,4/13/2024,,10,Heart failure,Severe,Inconclusive,Radiation therapy,Ibuprofen,2000 IU,14 days,Cardiology,70,5,493,F253
+743,Emergency,Open,10/14/2024,,,,Arthritis,Moderate,Inconclusive,Bronchodilator therapy,Hydrochlorothiazide,10mg,14 days,Orthopedics,145,1,307,A173
+744,Emergency,Open,1/30/2024,,,,Kidney infection,Moderate,Inconclusive,Physical therapy,Methotrexate,90mcg,10 days,Nephrology,318,2,533,E165
+745,Emergency,Discharged,6/30/2024,7/2/2024,,2,Diabetes mellitus,Moderate,Normal,Pain management,Albuterol,100mg,5 days,Endocrinology,159,6,298,E294
+746,Urgent,Discharged,7/7/2024,8/15/2024,,39,Hypertension,Moderate,Inconclusive,Antibiotic course,Lisinopril,500mg,14 days,Cardiology,180,13,549,A155
+747,Urgent,Discharged,5/27/2024,5/31/2024,,4,Arthritis,Moderate,Abnormal,Blood pressure management,Hydrochlorothiazide,2000 IU,14 days,Orthopedics,222,19,140,F242
+748,Urgent,Discharged,8/19/2024,8/20/2024,Stable,1,Back pain,Mild,Normal,Wound care,Prednisone,500mcg,7 days,Orthopedics,68,1,568,B456
+749,Elective,Discharged,3/14/2024,3/21/2024,Follow-Up Needed,7,Arthritis,Moderate,Normal,Dialysis,Lisinopril,1000 IU,10 days,Orthopedics,134,1,414,A249
+750,Emergency,Discharged,3/11/2024,3/24/2024,,13,Cancer,Severe,Inconclusive,IV fluids,Oxycodone,100mg,14 days,Oncology,253,10,600,B137
+751,Urgent,Open,2/29/2024,,,,Mental health disorder,Unclassified,Abnormal,Wound care,Paracetamol,50mg,7 days,Psychiatry,206,3,397,E400
+752,Urgent,Discharged,1/22/2024,1/22/2024,Transferred,0,Back pain,Mild,Normal,Pain management,Prednisone,50mg,Ongoing,Orthopedics,325,13,167,B147
+753,Urgent,Discharged,4/10/2024,4/10/2024,Improved,0,Pneumonia,Moderate,Normal,Physical therapy,Clonazepam,100mg,Ongoing,Pulmonology,243,19,291,D469
+754,Emergency,Discharged,10/3/2024,10/3/2024,Follow-Up Needed,0,Migraine,Mild,Inconclusive,IV fluids,Ceftriaxone,10mg,14 days,Neurology,91,6,316,B217
+755,Emergency,Discharged,8/11/2024,8/23/2024,,12,Kidney infection,Moderate,Abnormal,Antibiotic course,Amoxicillin,90mcg,14 days,Nephrology,230,6,470,F185
+756,Emergency,Discharged,1/27/2024,2/22/2024,Follow-Up Needed,26,Heart failure,Severe,Abnormal,Surgery,Amoxicillin,400mg,7 days,Cardiology,224,10,201,A300
+757,Emergency,Discharged,5/25/2024,7/28/2024,Stable,64,Cancer,Severe,Abnormal,Antibiotic course,Metformin,500mg,5 days,Oncology,73,19,23,B130
+758,Urgent,Discharged,9/17/2024,10/4/2024,Stable,17,Lung infection,Severe,Normal,Wound care,Paracetamol,1000 IU,5 days,Pulmonology,34,5,384,C278
+759,Elective,Discharged,10/7/2024,10/10/2024,,3,Hypertension,Moderate,Abnormal,Corticosteroid injection,Hydrochlorothiazide,250mg,14 days,Cardiology,15,15,2,B142
+760,Emergency,Open,3/7/2024,,,,Hypertension,Moderate,Normal,Physical therapy,Methotrexate,1000 IU,14 days,Cardiology,274,17,363,E204
+761,Elective,Discharged,3/13/2024,3/14/2024,Follow-Up Needed,1,Arthritis,Moderate,Abnormal,Blood pressure management,Amoxicillin,2000 IU,Ongoing,Orthopedics,287,19,248,C413
+762,Elective,Discharged,3/30/2024,3/31/2024,Stable,1,Annual health checkup,Unclassified,Normal,Routine checkup,None,0mg,As needed,General Medicine,273,9,519,A355
+763,Urgent,Discharged,7/4/2024,7/26/2024,,22,COVID-19,Severe,Normal,Radiation therapy,Clonazepam,500mcg,Ongoing,Pulmonology,89,8,311,F292
+764,Emergency,Discharged,1/20/2024,1/21/2024,Stable,1,Arthritis,Moderate,Abnormal,Blood pressure management,Hydrochlorothiazide,500mg,30 days,Orthopedics,62,5,32,D345
+765,Elective,Open,3/5/2024,4/15/2024,,41,Cancer,Severe,Normal,Blood pressure management,Amoxicillin,50mg,30 days,Oncology,172,9,46,F394
+766,Urgent,Discharged,1/2/2024,1/8/2024,,6,Diabetes mellitus,Moderate,Inconclusive,Surgery,Ibuprofen,1000 IU,Ongoing,Endocrinology,269,16,551,C376
+767,Emergency,Discharged,8/5/2024,9/13/2024,Transferred,39,COVID-19,Severe,Abnormal,Surgery,Methotrexate,1000 IU,Ongoing,Pulmonology,242,10,60,D380
+768,Emergency,Open,2/13/2024,4/16/2024,,63,Cancer,Severe,Inconclusive,Chemotherapy,Methotrexate,50mg,5 days,Oncology,194,7,521,F171
+769,Urgent,Discharged,1/3/2024,1/7/2024,Stable,4,Bronchitis,Mild,Inconclusive,Antibiotic course,Aspirin,500mcg,30 days,Pulmonology,232,9,400,A437
+770,Urgent,Discharged,1/12/2024,1/14/2024,Improved,2,Headache,Mild,Normal,Over-the-counter pain relief,Ibuprofen,400mg,As needed,General Medicine,152,3,574,A357
+771,Emergency,Discharged,2/10/2024,2/20/2024,,10,COVID-19,Severe,Inconclusive,Dialysis,Aspirin,500mg,7 days,Pulmonology,177,12,68,E287
+772,Elective,Discharged,5/12/2024,5/20/2024,Transferred,8,Kidney infection,Moderate,Inconclusive,Pain management,Ceftriaxone,100mg,5 days,Nephrology,297,6,472,F183
+773,Elective,Open,10/19/2024,,,,Pneumonia,Moderate,Abnormal,Blood pressure management,Metformin,90mcg,Ongoing,Pulmonology,89,8,324,E397
+774,Elective,Discharged,9/23/2024,9/26/2024,Improved,3,Hypertension,Moderate,Inconclusive,Wound care,Paracetamol,10mg,7 days,Cardiology,158,9,444,D386
+775,Emergency,Discharged,5/2/2024,6/14/2024,Follow-Up Needed,43,COVID-19,Severe,Abnormal,Radiation therapy,Prednisone,500mg,30 days,Pulmonology,321,3,130,F205
+776,Urgent,Open,4/16/2024,,,,Back pain,Mild,Normal,Corticosteroid injection,Hydrochlorothiazide,400mg,10 days,Orthopedics,287,19,290,C179
+777,Urgent,Discharged,8/17/2024,10/7/2024,,51,Cancer,Severe,Abnormal,Blood pressure management,Oxycodone,500mg,30 days,Oncology,29,16,528,D482
+778,Elective,Open,3/3/2024,,,,Kidney infection,Moderate,Normal,Physical therapy,Ceftriaxone,10mg,Ongoing,Nephrology,149,13,421,D358
+779,Emergency,Open,9/6/2024,,,,Arthritis,Moderate,Abnormal,Physical therapy,Oxycodone,100mg,14 days,Orthopedics,79,8,320,C377
+780,Elective,Discharged,5/4/2024,5/7/2024,Transferred,3,Hypertension,Moderate,Normal,Dialysis,Citalopram,10mg,30 days,Cardiology,103,16,369,E296

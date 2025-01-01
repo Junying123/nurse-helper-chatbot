@@ -1,0 +1,71 @@
+1. Retrieve Specializations for a Specific Hospital
+   To find the specializations offered by a specific hospital (e.g., "Penang General Hospital"):
+
+   MATCH (h:hospital {`Hospital Name`: "Penang General Hospital"})
+   RETURN h.`Hospital Name` AS HospitalName, 
+          h.`Specialisation Offered` AS Specialisations;
+
+2.Find Hospitals Offering a Specific Specialization
+To find all hospitals that offer a specific specialization (e.g., "Cardiology"):
+
+  MATCH (h:hospital)
+  WHERE h.`Specialisation Offered` CONTAINS "Cardiology"
+  RETURN h.`Hospital Name` AS HospitalName;
+
+3.Retrieve Specializations for a Hospital by Partial Name Match
+To find specializations for a hospital based on a partial match in the hospital name (e.g., contains "General"):
+
+  MATCH (h:hospital)
+  WHERE h.`Hospital Name` CONTAINS "General"
+  RETURN h.`Hospital Name` AS HospitalName, 
+         h.`Specialisation Offered` AS Specialisations;
+
+4.Retrieve Hospitals and Specializations in a Specific State
+To retrieve hospitals and their specializations in a specific state (e.g., "Penang"):
+
+  MATCH (h:hospital)
+  WHERE h.State = "Penang"
+  RETURN h.`Hospital Name` AS HospitalName;
+
+5.Retrieve Hospitals Offering Multiple Specializations using "AND"
+To retrieve hospitals that provide multiple specializations, listing their names and the complete range of specializations offered.
+
+  MATCH (h:hospital)
+  WHERE h.`Specialisation Offered` CONTAINS "Cardiology" AND h.`Specialisation Offered` CONTAINS "Pulmonology"
+  RETURN h.`Hospital Name` AS HospitalName, h.`Specialisation Offered` AS Specialisations;
+
+6.Retrieve Hospitals Offering More than 2 Specializations using "OR"
+To retrieve hospitals that provide more than two specializations, listing their names and the complete range of specializations offered.
+
+  MATCH (h:hospital)
+  WHERE h.`Specialisation Offered` CONTAINS "Radiology" OR
+        h.`Specialisation Offered` CONTAINS "Internal Medicine" OR
+        h.`Specialisation Offered` CONTAINS "Neurology"
+  RETURN h.`Hospital Name` AS HospitalName, h.`Specialisation Offered` AS Specialisations;
+
+
+7.List all the hospitals (without returning properties) and just display their names
+  MATCH (h:hospital)
+  RETURN h.`Hospital Name` AS HospitalName;
+
+8.Retrieve Properties of a Specific Hospital
+  MATCH (h:hospital {`Hospital Name`: "Penang General Hospital"})
+  RETURN  h.`Contact Number` AS ContactNumber, 
+          h.State AS State, 
+          h.`Specialisation Offered` AS Specialisations;
+
+9.Retrieve Physicians Recruited by a Specific Hospital with Relevant Properties
+  
+  MATCH (h:hospital {`Hospital Name`: "Penang General Hospital"})-[:recruit]->(p:physician)
+  RETURN p.`Physician_Name` AS PhysicianName, 
+         p.`Specialization` AS Specialisation, 
+         p.`License_Number` AS LicenseNumber, 
+         p.`Contact_Number` AS ContactNumber;
+
+10. Retrieve Physicians with a Specific Specialization Recruited by a Specific Hospital
+
+  MATCH (h:hospital {`Hospital Name`: "Penang General Hospital"})-[:recruit]->(p:physician)
+  WHERE p.`Specialization` = "Pulmonology"
+  RETURN p.`Physician_Name` AS PhysicianName, 
+         p.`License_Number` AS LicenseNumber, 
+         p.`Contact_Number` AS ContactNumber;
