@@ -183,7 +183,7 @@ elif selected_tab == "Chat History":
                 grouped_messages.append((chat_history[i], chat_history[i + 1]))
 
         for i, (user_message, assistant_message) in enumerate(grouped_messages):
-            # Display user input
+           
             if isinstance(user_message, dict):
                 user_content = user_message.get("content", "No content available")
                 st.markdown(f"**Input {i + 1}:**\n{user_content}", unsafe_allow_html=True)
@@ -191,7 +191,7 @@ elif selected_tab == "Chat History":
                 user_content = getattr(user_message, "content", "No content available")
                 st.markdown(f"**Input {i + 1}:**\n{user_content}", unsafe_allow_html=True)
 
-            # Display assistant response
+            
             if isinstance(assistant_message, dict):
                 assistant_content = assistant_message.get("content", "No content available")
                 st.markdown(f"**Response {i + 1}:**\n{assistant_content}", unsafe_allow_html=True)
@@ -199,7 +199,7 @@ elif selected_tab == "Chat History":
                 assistant_content = getattr(assistant_message, "content", "No content available")
                 st.markdown(f"**Response {i + 1}:**\n{assistant_content}", unsafe_allow_html=True)
 
-            # Add a divider between groups (except after the last group)
+            
             if i < len(grouped_messages) - 1:
                 st.divider()
     else:
