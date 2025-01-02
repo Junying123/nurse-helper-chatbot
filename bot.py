@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 from utils import write_message
-from agent import generate_response
+from new_agent import generate_response
 from general import prompt_response
 from standard import load_vector_store, create_bm25_retriever, splitter, get_response, hybrid_query
 from dotenv import load_dotenv

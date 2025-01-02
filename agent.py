@@ -60,7 +60,7 @@ tools = [
 
      Tool.from_function(
         name="Checkup Information",  
-        description="""Provide information about checkup questions using Cypher and context from GraphCypherQAChain.
+        description="""U must use the full context from checkup_cypher_qa to answer.
                        List the response concisely in bullet point for readability.
                     """,
         func=checkup_cypher_qa, 
@@ -133,6 +133,8 @@ agent_executor = AgentExecutor(
     agent=agent,
     tools=tools,
     verbose=True,
+    return_intermediate_steps=True,
+    max_iterations=6,
     )
 
 chat_agent = RunnableWithMessageHistory(

@@ -101,6 +101,6 @@ checkup_cypher_qa = GraphCypherQAChain.from_llm(
     verbose=True,
     allow_dangerous_requests=True,
     validate_cypher=True,
-    function_response_system="Response based on the Cypher Query and context",
+    function_response_system="Response based on the Cypher Statment and context",
     cypher_prompt=checkup_cypher_prompt
 )

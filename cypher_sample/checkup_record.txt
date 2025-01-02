@@ -1,0 +1,96 @@
+1. Retrieve Checkups for a Specific Patient (Including Identity Number)
+To retrieve all checkups associated with a specific patient and include the patient's Identity Number
+
+MATCH (c:checkup)<-[:has]-(p:patient)
+WHERE p.Patient_ID = 321
+RETURN c.Checkup_ID AS CheckupID, 
+       p.Identity_number AS IdentityNumber, 
+       p.Name AS PatientName,     
+       c.Admission_Type AS AdmissionType, 
+       c.Checkup_Status AS CheckupStatus, 
+       c.Admission_Date AS AdmissionDate, 
+       c.Discharge_Date AS DischargeDate, 
+       c.Discharge_Condition AS DischargeCondition, 
+       c.Diagnosis AS Diagnosis, 
+       c.Medication AS Medication, 
+       c.Room_Number AS RoomNumber;
+
+2. Retrieve Checkups for a Specific Physician (Including License Number)
+To retrieve all checkups attended by a specific physician and include the physician's License Number
+
+MATCH (c:checkup)<-[:attend]-(ph:physician)
+WHERE ph.Physician_ID = 101
+RETURN c.Checkup_ID AS CheckupID, 
+       c.Admission_Type AS AdmissionType, 
+       c.Checkup_Status AS CheckupStatus, 
+       c.Diagnosis AS Diagnosis, 
+       c.Treatment AS Treatment, 
+       c.Specialisation AS Specialisation, 
+       c.Patient_ID AS PatientID, 
+       c.Room_Number AS RoomNumber,
+       ph.License_Number AS LicenseNumber, 
+       ph.Physician_Name AS PhysicianName, 
+       ph.Specialisation AS PhysicianSpecialisation;
+
+3. Retrieve Checkups Conducted in a Specific Room with Patient Details
+MATCH (p:patient)-[:has]->(c:checkup)
+WHERE c.Room_Number = "A314"
+RETURN c.Checkup_ID AS CheckupID, 
+       c.Admission_Type AS AdmissionType, 
+       c.Checkup_Status AS CheckupStatus, 
+       c.Diagnosis AS Diagnosis, 
+       c.Medication AS Medication, 
+       p.Patient_ID AS PatientID, 
+       p.Identity_number AS IdentityNumber, 
+       p.Name AS PatientName;
+
+
+4. Retrieve Emergency Checkups for a Specific Physician and Associated Patient Details
+MATCH (p:patient)-[:has]->(c:checkup)<-[:attend]-(ph:physician)
+WHERE c.Admission_Type = "Emergency"
+AND ph.Physician_Name = "Dr. Ng Yee Siang"
+RETURN c.Checkup_ID AS CheckupID, 
+       c.Diagnosis AS Diagnosis, 
+       c.Treatment AS Treatment, 
+       p.Name AS PatientName, 
+       p.Identity_number AS IdentityNumber;
+
+5. Retrieve Checkups for Specific Test Results and a Specific Physician
+MATCH (c:checkup)<-[:attend]-(ph:physician)
+WHERE c.Test_Results = "Abnormal" 
+  AND ph.Physician_Name = "Dr. Ng Yee Siang"
+RETURN c.Checkup_ID AS CheckupID, 
+       c.Diagnosis AS Diagnosis, 
+       c.Test_Results AS TestResults, 
+       c.Treatment AS Treatment, 
+       c.Medication AS Medication, 
+       c.Room_Number AS RoomNumber,
+       ph.Physician_Name AS PhysicianName, 
+       ph.Specialization AS Specialisation, 
+       ph.License_Number AS LicenseNumber;
+
+These options for Adjustments for Flexibility when user ask more
+
+WHERE c.Test_Results = "Abnormal" 
+  AND ph.License_Number = 12345
+
+or
+
+WHERE c.Test_Results IN ["Abnormal", "Inconclusive"] 
+  AND ph.Physician_Name = "Dr. Ng Yee Siang"
+
+6. Retrieve Checkup Details for a Specific Physician and Associated Patient
+
+MATCH (p:patient)-[:has]->(c:checkup)<-[:attend]-(ph:physician)
+WHERE  ph.Physician_Name = "Dr. Ng Yee Siang"
+RETURN c.Checkup_ID AS CheckupID, 
+       c.Admission_Type AS AdmissionType, 
+       c.Checkup_Status AS CheckupStatus, 
+       c.Diagnosis AS Diagnosis, 
+       c.Diagnosis_Condition AS DiagnosisCondition, 
+       c.Treatment AS Treatment, 
+       c.Medication AS Medication, 
+       c.Room_Number AS RoomNumber, 
+       p.Patient_ID AS PatientID, 
+       p.Name AS PatientName, 
+       ph.Specialization AS Specialisation;
