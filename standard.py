@@ -9,6 +9,8 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_history_aware_retriever
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from llm import embeddings
+
 
 def splitter(file_path, chunk_size=500, chunk_overlap=10):
     """
@@ -56,10 +58,10 @@ def load_vector_store():
         index = pinecone.Index(index_name)
 
         # Initialize OpenAI embeddings
-        embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+        oai_embeddings = embeddings
 
         # Create and return the vector store
-        vector_store = PineconeVectorStore(index, embeddings)
+        vector_store = PineconeVectorStore(index, oai_embeddings)
         return vector_store
     except Exception as e:
         raise RuntimeError(f"Error initializing vector store: {str(e)}")

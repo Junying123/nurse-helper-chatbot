@@ -8,22 +8,20 @@ from langchain_core.prompts import ChatPromptTemplate
 
 
 neo4jvector = Neo4jVector.from_existing_index(
-    embeddings,                              
-    graph=graph,                              
-    index_name="review_index",                
-    node_label="review",                      
-    text_node_property="Review",              
-    embedding_node_property="embedding"       
+    embedding=embeddings,
+    index_name="reviewEmbeddingIndex",
+    node_label="review",
+    text_node_property="Review",
+    embedding_node_property="embedding",   
 )
 
 
-
-retriever = neo4jvector.as_retriever()
+retriever = neo4jvector.as_retriever(k=12)
 
 
 
 instructions = (
-    "To answer the question when human ask about reviews. Please answer the question in details"
+    "Your job is to use patient reviews to answer questions about their experience at a hospital. Use the following context to answer questions. Be as detailed as possible, but don't make up any information that's not from the context. If you don't know an answer, say you don't know."
     "If you don't know the answer, say you don't know."
     "Context: {context}"
 )
@@ -47,4 +45,3 @@ review_retriever = create_retrieval_chain(
 
 def get_review(input):
     return review_retriever.invoke({"input": input})
-

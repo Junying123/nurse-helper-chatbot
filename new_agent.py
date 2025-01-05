@@ -17,8 +17,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 import streamlit as st 
 from langchain_core.runnables import RunnableConfig  
-from pyvis.network import Network
-import json
+
 
 @tool
 def explore_hospital(question: str) -> str:
@@ -42,7 +41,7 @@ def explore_physician(question: str) -> str:
     
 @tool
 def explore_review(question: str) -> str:
-    """Provide information about reviews using Cypher."""
+    """Provide information about reviews."""
     return get_review(question)
 
 
