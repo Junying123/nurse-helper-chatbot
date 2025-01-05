@@ -8,3 +8,5 @@ langchainhub==0.1.18
 langchain-community==0.2.4
 st-pages
 rank_bm25
+langgraph==0.1.0
+tavily-python

@@ -1,7 +1,7 @@
 #graph.py
 import streamlit as st
 
-# Connect to Neo4j
+
 from langchain_community.graphs import Neo4jGraph
 
 graph = Neo4jGraph(

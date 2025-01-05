@@ -150,16 +150,16 @@ def generate_response(user_input):
     and returns a response to be rendered in the UI
     """
 
-    # Initialize the Streamlit callback handler
+    
     st_callback = StreamlitCallbackHandler(st.container())
 
-    # Call the agent and capture the response
+    
     response = chat_agent.invoke(
         {"input": user_input},
         {"configurable": {"session_id": get_session_id()}, "callbacks": [st_callback]}
     )
 
-    # Return the final output
+    
     return response['output']
 
 

@@ -1,0 +1,96 @@
+
+Hospitals
+1. can u give me the Penang General hospital info
+2. which hospital offer specialisation in Neurology?
+3. which hospitals locate at Penang?
+4. Penang General Hospital recruit physician with specialization in Pulmonology?
+
+Checkups
+1. What are the details of checkups conducted in room A314?, Show me the checkups performed in room A314 along with patient details.
+2. What checkups attended by Dr. Aisyah binti Kamaruddin include patient details?, Show all checkups attended by the physician with ID 261.
+3. What checkups has the patient with ID 321 undergone?, Show the checkups for the patient named Cheryl Lee.
+4. Retrieve checkups for Dr. Ng Yee Siang that involve emergencies or abnormal test results.
+
+Patients
+1. can u give me the patient info with Identity Number 880519-05-9016?
+2. can u find a patient information and its checkup with which physician attends the checkup for patient id 123?
+3. can u give me patient info for id 523?
+
+Physicians
+1. Find doctors with 'Tan' in their name and where hospital they work for.
+2. Get information about doctor, Dr. Saraswathy Pillai and the hospital where they work.
+3. What checkups attended by Dr. Aisyah binti Kamaruddin include patient details?
+3. Show doctors whose name includes 'Lim' or exactly matches Dr. Ng Yee Siang, along with their hospital details.
+4. Find doctors with license number 48720 and the hospital they work at.
+5. List doctors specializing in Cardiology or Orthopedics at Penang General Hospital and Penang Adventist Hospital.
+
+Reviews
+- Emotional Support
+    How are the reviews regarding the emotional support provided by nurses during patient care?
+    What feedback has been shared about nurses addressing patients' fears or anxieties?
+
+- Technical Skills
+    How do the reviews describe the technical skills of nurses in performing medical procedures?
+    Are there any concerns mentioned about nurses handling medical equipment or following protocols?
+
+- Communication
+    What do the reviews say about the clarity and effectiveness of communication from nurses?
+    How is the feedback regarding nurses ensuring patients understand their care plans and instructions?
+
+- Service Quality
+    What is the general perception of the quality of care provided by nurses?
+    Are there any specific comments about nurses' attentiveness and professionalism?
+
+- Timeliness and Efficiency
+    How do the reviews rate nurses' responsiveness to patient requests and call bells?
+    What is the feedback on nurses ensuring timely administration of treatments and medications?
+
+- Hygiene and Cleanliness
+    Are there any comments about nurses adhering to hygiene protocols, such as handwashing and glove use?
+    How do patients perceive the nurses’ role in maintaining a clean and safe care environment?
+
+- Food/Cafeteria
+    What do patients say about nurses’ involvement in ensuring meals meet dietary or nutritional needs?
+    Are there any reviews about nurses helping patients navigate food-related challenges during their stay?
+
+Standards
+1. What are the objectives of the Nursing Practice Standards, and how do they contribute to the overall quality of nursing care?
+
+2. Standard 1 for nursing services mentions providing continuous care. Can you elaborate on the shift system for nurses and the criteria for ensuring 24/7 patient care? 
+
+3. Can you explain the steps involved in the autonomous nursing process, as described in Standard 2, and how each step contributes to creating a patient-centered care plan? 
+
+4. Standard 4 focuses on infection prevention. What specific measures are nurses required to take to prevent hospital-acquired infections and maintain a hygienic environment? .
+
+5. Standard 7 outlines the procedures for patient discharge. Can you explain the criteria for assessing a patient's readiness for discharge and the information provided to patients and their families to ensure a smooth transition home?
+
+6. What are the specific duties and responsibilities of a nurse in charge during a day shift, evening shift, and night shift, and how do these roles contribute to the efficient functioning of the ward? 
+
+7. Can you walk me through the step-by-step process of admitting a patient, from preparing the necessary documents and equipment to providing initial care and recording patient information? 
+
+8. What are the key differences between the eight-hour and twelve-hour working systems for nurses, and what factors might influence the choice of one system over the other? 
+
+9. The document mentions "Ward Round in accordance with the nursing process." What are the specific recommendations for conducting effective ward rounds, and how do they relate to the nursing process and patient assessment? 
+
+10. How do nurses assess the quality of their practice?
+
+
+General Knowledge
+
+Medication Management
+- What are the common side effects of opioids, and how can they be managed in patients?
+- How should medications like insulin be prescribed and adjusted for diabetic patients?
+- What precautions should I take when administering high-alert medications such as anticoagulants?
+- How can I prevent medication errors during the administration process?
+
+Nutrition
+- What nutritional advice should I give to patients recovering from surgery to promote healing?
+- How can I help patients with chronic illnesses, like heart disease, make healthier dietary choices?
+
+Technology and Devices
+- How do I troubleshoot common issues with IV pumps or infusion devices during patient care?
+- What are the benefits of using electronic health records (EHR) for patient documentation and communication?
+
+Communication Skills
+- How can I educate a patient about their new medication regimen in a way they can easily understand?
+- What strategies can I use to improve collaboration with physicians and other healthcare team members?

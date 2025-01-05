@@ -17,8 +17,9 @@ from langgraph.checkpoint.memory import MemorySaver
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 import streamlit as st 
 from langchain_core.runnables import RunnableConfig  
+from pyvis.network import Network
+import json
 
-# Define your tools using the @tool decorator for LangGraph integration
 @tool
 def explore_hospital(question: str) -> str:
     """Provide information about hospital-related questions using Cypher."""
@@ -46,7 +47,7 @@ def explore_review(question: str) -> str:
 
 
 
-# List of tools for the LangGraph agent
+
 tools = [
     explore_hospital,
     explore_patient,
@@ -56,11 +57,19 @@ tools = [
 ]
 
 system_message = SystemMessage(content="""
+
+Thought: What action and insight you need from the context?
+Cypher_query: What cypher query you use to retrieve the information?
+Tool_used: What tool you use to retrieve the information?
+Relationship: Draw the relationship between the entities in the context in the markdown format.
+Response: list the details in bulletpoint to make it more readable
+
 Use the following format to provide a response:
-Thought:
-Cypher_query:
-Tool_used: 
-Response:
+Thought: \n
+Cypher_query: \n
+Tool_used: \n
+Relationship: \n
+Response: \n
 """)
 
 
@@ -81,8 +90,8 @@ def generate_response(query: str):
         str: The output content from the agent's response.
     """ 
 
-    thread_id = get_session_id()    # You can use the same function or create a new one for thread ID
-    session_id = get_session_id()  # Get or create a unique session ID
+    thread_id = get_session_id()    
+    session_id = get_session_id()  
     message_history = get_memory(session_id)
 
     config = RunnableConfig(
@@ -92,25 +101,25 @@ def generate_response(query: str):
         }
     )
 
-    # Prepare messages for the agent (using HumanMessage)
+    
     messages = langgraph_agent_executor.invoke({
         "messages": [HumanMessage(content=query)],
         "chat_history": message_history, 
         "config" : config
 
-          # Pass the message history to the agent executor
+          
     })
 
-    # Print only ToolMessages in Streamlit expander for debugging purposes
+    
     if "messages" in messages:
         for message in messages["messages"]:
             if isinstance(message, ToolMessage):
                 with st.expander("Tool Message", expanded=False):  
                     st.write("Content:", message.content)  
 
-    # Extract the last AI message content from the response
+    
     output_content = messages["messages"][-1].content if "messages" in messages else "No response generated."
 
-    # Return only the output content
+    
     return output_content
 

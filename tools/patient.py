@@ -46,5 +46,6 @@ patient_cypher_qa = GraphCypherQAChain.from_llm(
     graph=graph,
     return_intermediate_steps=True,
     verbose=True,
+    allow_dangerous_requests=True,
     cypher_prompt=patient_cypher_prompt
 )
