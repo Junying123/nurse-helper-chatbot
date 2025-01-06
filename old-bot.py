@@ -1,12 +1,12 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 from utils import write_message
-from agent_with_memory import generate_response
+from new_agent import generate_response
 from general import prompt_response
 from standard import load_vector_store, create_bm25_retriever, splitter, get_response, hybrid_query
 from dotenv import load_dotenv
 from chat_history import save_message, load_chat_history
-from ui.scroll import inject_scroll_to_bottom_js, inject_css
+
 
 load_dotenv()
 
@@ -113,9 +113,6 @@ if selected_tab == "Description":
     """, unsafe_allow_html=True)
 
 
-
-
-
 elif selected_tab == "General Knowledge":
     st.title("🗨️ General Knowledge")
     st.write("This page is for general nurse knowledge chat not covered by other tools.")
@@ -187,12 +184,13 @@ elif selected_tab == "Work Hub Daily Operation":
     st.title("💼 Work Hub (Daily Operation)")
     st.write("This page is for hospital operations and patient info queries.")
     
-    # Display previous messages in the chat history
     for message in st.session_state.work_hub_messages:
         write_message(message['role'], message['content'])
 
-    # Chat input field for user queries
-    prompt = st.chat_input("What do you need to know about hospital, patient, checkup, physician's details? 🏥 🩺", key='chat-input')
+    
+    
+    # Chat input field
+    prompt = st.chat_input("What do you need to know about hospital,patient,checkup,psyhician's details? 🏥 🩺", key='chat-input')
 
     if prompt:
         write_message("user", prompt)
@@ -201,23 +199,12 @@ elif selected_tab == "Work Hub Daily Operation":
         
         with st.spinner("Thinking..."):
             try:
-                response, tool_messages = generate_response(prompt)  # Get both response and tool messages
+                response = generate_response(prompt)
                 st.session_state.work_hub_messages.append({"role": "assistant", "content": response})
                 save_message("assistant", response)  
                 write_message("assistant", response)
-
-                # Display tool messages using an expander
-                if tool_messages:  # Check if there are any tool messages
-                    with st.expander("Intermediate steps", expanded=False):
-                        # Directly return tool messages
-                        for tool_message in tool_messages:
-                            st.write(tool_message)  # Display each tool message directly
-
             except Exception as e:
                 st.error(f"Error: {str(e)}")
-
-
-
 
 
     with st.expander("💡 No Idea to ask?", expanded=False):
@@ -445,13 +432,3 @@ elif selected_tab == "Chat History":
                 st.divider()
     else:
         st.write("No chat history found.")
-
-
-
-
-
-
-
-
-
-

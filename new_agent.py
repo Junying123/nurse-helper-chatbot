@@ -121,4 +121,3 @@ def generate_response(query: str):
 
     
     return output_content
-
