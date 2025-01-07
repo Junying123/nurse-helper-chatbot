@@ -2,7 +2,7 @@
 
 # Project Overview
 
-This repository hosts an **Intelligent Nurse Helper Chatbot** designed to support interim nurses with real-time access to patient, physician, checkup, and hospital information. Built using Neo4j, LLMs (OpenAI),Retrieval-Augmented Generation (RAG) and React Agent, it streamlines workflows, offers decision support, and reinforces nursing standards. The goal is to reduce complexity and fragmentation in healthcare systems, thereby enhancing the efficiency and confidence of nurses in their day-to-day tasks.")
+This repository hosts an **Intelligent Nurse Helper Chatbot** designed to support interim nurses with real-time access to patient, physician, checkup, and hospital information. Built using Neo4j, LLMs (OpenAI),Retrieval-Augmented Generation (RAG) and React Agent, it streamlines workflows, offers decision support, and reinforces nursing standards. The goal is to reduce complexity and fragmentation in healthcare systems, thereby enhancing the efficiency and confidence of nurses in their day-to-day tasks.
 
 
 ## Key Highlights
