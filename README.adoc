@@ -1,3 +1,50 @@
-= Build an Neo4j-backed Chatbot 
+= Nurse Helper Chatbot powered by RAG and Agent - Final Year Project
 
+# Project Overview
 
+This repository hosts an **Intelligent Nurse Helper Chatbot** designed to support interim nurses with real-time access to patient, physician, checkup, and hospital information. Built using **Neo4j**, **LLMs**, and **Retrieval-Augmented Generation (RAG)**, it streamlines workflows, offers decision support, and reinforces nursing standards. The goal is to reduce complexity and fragmentation in healthcare systems, thereby enhancing the efficiency and confidence of nurses in their day-to-day tasks.
+
+## Key Highlights
+
+- **Patient Data Retrieval**  
+  Quickly fetch patient info based on multiple identifiers.
+
+- **Physician & Hospital Search**  
+  Locate physicians by name, specialty, or license, and find hospitals by location or services offered.
+
+- **Checkup Management**  
+  Access details about patient checkups, assigned rooms, urgency levels, and physician involvement.
+
+- **Nursing Standards**  
+  Reinforce best practices, infection control, shift systems, and admission/discharge procedures.
+
+- **General Medical Queries**  
+  Provide quick definitions, guidelines, and answers to assist interim nurses in learning and decision-making.
+
+## Why It Matters
+
+- **Reduces Administrative Overload**  
+  Consolidates fragmented systems into a single intuitive platform.
+
+- **Accelerates Decision-Making**  
+  Offers real-time support with actionable insights.
+
+- **Promotes Confidence & Competence**  
+  Helps nurses adapt more quickly to real-world care settings.
+
+## Technologies
+
+- **Neo4j** (Graph Database)
+- **Large Language Models (LLMs)**
+- **Retrieval-Augmented Generation (RAG) and React Agent**
+
+## Screenshots
+
+### 1. Description Page
+![Nurse Helper Chatbot - Description Page](./assets/Screenshot%202025-01-07%20115931.png)
+
+### 2. Professional Standards Guideline
+![Nurse Helper Chatbot - Professional Standards Guideline](./assets/Screenshot%202025-01-07%20120730.png)
+
+### 3. Work Hub (Daily Operation)
+![Nurse Helper Chatbot - Work Hub (Daily Operation)](./assets/Screenshot%202025-01-07%20120903.png)

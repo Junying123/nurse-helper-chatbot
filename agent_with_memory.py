@@ -21,6 +21,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import END, MessagesState, StateGraph
 from langgraph.prebuilt import ToolNode, tools_condition
 
+
 @tool
 def explore_hospital(question: str) -> str:
     """Provide information about hospital-related questions using Cypher."""
@@ -139,37 +140,37 @@ Response: \n
 
 langgraph_agent_executor = create_react_agent(llm, tools, state_modifier=system_message, checkpointer=memory)
 
-import streamlit as st
+
 
 def print_stream(stream):
     """Display messages from the stream in Streamlit."""
     for s in stream:
         message = s["messages"][-1]
         if isinstance(message, tuple):
-            st.write(message)  # Display tuple messages directly
+            st.write(message)  
         else:
-            st.markdown(message.pretty_print())  # Use markdown for formatted output
+            st.markdown(message.pretty_print())  
 
 def generate_response(query):
     thread_id = get_session_id()
-    session_id = thread_id  # Use the same ID for session and thread
+    session_id = thread_id 
     message_history = get_memory(session_id)
 
-    checkpoint_ns = "your_namespace"  # Replace with your logic for namespace
-    checkpoint_id = f"{session_id}_{thread_id}"  # Example of generating a unique checkpoint ID
+    checkpoint_ns = "your_namespace"  
+    checkpoint_id = f"{session_id}_{thread_id}"  
 
     config = RunnableConfig({"configurable": {"thread_id": "1"}})
 
-    # Call the stream and display the output in Streamlit
+    # 
     stream = langgraph_agent_executor.stream({"messages": [(query)]}, config=config, stream_mode="values")
     
     response_content = ""
-    tool_messages = []  # List to hold tool messages
+    tool_messages = [] 
     
     for message in stream:
         if isinstance(message["messages"][-1], AIMessage):
-            response_content += message["messages"][-1].content.strip()  # Extract string content from AIMessage.
+            response_content += message["messages"][-1].content.strip()  
         else:
-            tool_messages.append(message)  # Collect tool messages
+            tool_messages.append(message)  
     
-    return response_content.strip(), tool_messages  # Return both content and tool messages
+    return response_content.strip(), tool_messages  
