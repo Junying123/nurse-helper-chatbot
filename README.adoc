@@ -42,7 +42,7 @@ This repository hosts an **Intelligent Nurse Helper Chatbot** designed to suppor
 == Screenshots
 
 === 1. Description Page
-image::.assets/description.png[Description Page]
+image::./assets/description.png[Description Page]
 
 === 2. Work Hub (Daily Operation)
 image::./assets/workhub.png[Work Hub (Daily Operation)]
