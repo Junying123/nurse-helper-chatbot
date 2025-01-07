@@ -76,6 +76,7 @@ if "chat_input" not in st.session_state:
 if selected_tab == "Description":
     st.title("📝 Description")
     st.write("Welcome to the Nurse Helper Chatbot!")
+    st.write(" **Intelligent Nurse Helper Chatbot** designed to support interim nurses with real-time access to patient, physician, checkup, and hospital information. Built using Neo4j, LLMs (OpenAI),Retrieval-Augmented Generation (RAG) and React Agent, it streamlines workflows, offers decision support, and reinforces nursing standards. The goal is to reduce complexity and fragmentation in healthcare systems, thereby enhancing the efficiency and confidence of nurses in their day-to-day tasks.")
     st.write("""
     ### Features:
     1. **💼 Work Hub (Daily Operation):** 
@@ -117,7 +118,7 @@ if selected_tab == "Description":
 
 
 elif selected_tab == "General Knowledge":
-    st.title("🗨️ General Knowledge")
+    st.title("💡 General Knowledge")
     st.write("This page is for general nurse knowledge chat not covered by other tools.")
     
     for message in st.session_state.general_messages:
