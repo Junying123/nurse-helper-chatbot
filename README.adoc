@@ -38,13 +38,14 @@ This repository hosts an **Intelligent Nurse Helper Chatbot** designed to suppor
 - **Large Language Models (LLMs)**
 - **Retrieval-Augmented Generation (RAG) and React Agent**
 
-# Screenshots
 
-### 1. Description Page
-![Nurse Helper Chatbot - Description Page](./assets/Screenshot 2025-01-07 115931.png)
+== Screenshots
 
-### 2. Professional Standards Guideline
-![Nurse Helper Chatbot - Professional Standards Guideline](.assets/Screenshot 2025-01-07 120730.png)
+=== 1. Description Page
+image::./assets/Screenshot-2025-01-07-115931.png[Description Page]
 
-### 3. Work Hub (Daily Operation)
-![Nurse Helper Chatbot - Work Hub (Daily Operation)](.assets/Screenshot 2025-01-07 120903.png)
+=== 2. Professional Standards Guideline
+image::./assets/Screenshot-2025-01-07-120730.png[Professional Standards Guideline]
+
+=== 3. Work Hub (Daily Operation)
+image::./assets/Screenshot-2025-01-07-120903.png[Work Hub (Daily Operation)]
