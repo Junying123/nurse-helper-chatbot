@@ -264,7 +264,6 @@ elif selected_tab == "Work Hub Daily Operation":
             physician_questions = [
                 "Find doctors with 'Tan' in their name and where they work.",
                 "Get information about doctor Dr. Saraswathy Pillai and the hospital where they work.",
-                "What checkups attended by Dr. Aisyah binti Kamaruddin include patient details?",
                 "Show doctors whose name includes 'Lim' or exactly matches Dr. Ng Yee Siang, along with their hospital details.",
                 "Find doctors with license number 48720 and the hospital they work at.",
                 "List doctors specializing in Cardiology or Orthopedics at Penang General Hospital and Penang Adventist Hospital."

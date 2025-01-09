@@ -127,12 +127,14 @@ def get_memory(session_id):
 system_message = SystemMessage(content="""
 
 Thought: What action and insight you need from the context?
+Cypher_query: What cypher query you use to retrieve the information?
 Tool_used: What tool you use to retrieve the information?
-Relationship: Draw the relationship between the entities in the context in the markdown format (e.g. Patient Node -> Checkup Node).
+Relationship: Draw the relationship between the entities in the context in the markdown format.
 Response: list the details in bulletpoint to make it more readable
 
-Use the following format to display a response:
+Use the following format to provide a response:
 Thought: \n
+Cypher_query: \n
 Tool_used: \n
 Relationship: \n
 Response: \n

@@ -1,0 +1,19 @@
+Category,Query,Precision (1-5),Relevance (1-5),Completeness (1-5),Clarity (1-5),Comments,Response Time (s)
+Hospitals,Can you give me the Penang General Hospital info?,4,4,4,4,Excellent response.,11
+,Which hospitals are located in Penang?,3,3,3,3,"Missed 4 hospitals, response was incomplete but mostly correct.",9
+,Can u give which specialization that Penang Adventist Hospital offered?,5,5,5,5,All answers provided are correct.,8
+,Who are the physicians specializing in Pulmonology recruited by Penang General Hospital?,5,5,5,5,All answers are correct.,10
+Checkups,"What are the details of checkups conducted in room A314, including patient details?",5,5,5,5,All informations given are correct.,13
+,Show the checkups for the patient named Cheryl Lee,5,5,5,5,All informations given are correct.,8
+,Retrieve checkups for Dr. Ng Yee Siang that involve emergencies or abnormal test results.,5,5,5,4,All informations given are correct.,20
+,What checkups attended by Dr. Aisyah binti Kamaruddin include patient details?,5,5,5,5,All informations given are correct.,12
+Patients,Can you give me patient info with ID 523?,5,5,5,5,All informations given are correct.,8
+,can u find a patient information and its checkup with which physician attends the checkup for id 227,5,5,5,5,All informations given are correct.,13
+,can u give me the patient info with Identity Number 880519-05-9016?,5,5,5,5,All informations given are correct.,8
+Physician,"Can u give me which sepcialization Dr. Siti Rahmah binti Abdul Latif?
+",5,5,5,5,All informations given are correct.,7
+,"Find physicians specializing in Psychiatry or Endocrinology at Penang Adventist Hospital.
+",5,4,5,5,All informations given are correct.,10
+,Find doctors with license number 48720 and the hospital they work at,5,5,5,5,All informations given are correct.,8
+,Get information about Dr. Saraswathy Pillai and the hospital where they work,5,5,5,5,All informations given are correct.,7
+Total/75,,72,71,72,71,,
